@@ -38,6 +38,10 @@ This file contains the definition of the correspondence sets given in Josserand 
 * SOURCE = cite key of the source file (Josserand 1983)
 * PAGE = page number of correspondence set
 
+### variables
+#### variables_segments
+This file contains the coding of the sound changes. For each sample language and each identified sound change, it indicates whether this change is present, absent, or NA. Each column is a change (labeled by its ID) and each row is a doculect.
+
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 

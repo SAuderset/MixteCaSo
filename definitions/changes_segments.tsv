@@ -1,0 +1,251 @@
+ID	SOUND_FROM	SOUND_TO	ENVIRONMENT_LEFT	ENVIRONMENT_RIGHT	NOTE	CLASS	JosserandSetID	BEFORE	AFTER	CORRELATES
+A01	*a	ja	#	s		V		NA	NA	NA
+A02	*a	e	NA	ja		V	Josserand068	NA	NA	NA
+A03	*a	i	aj	NA		V	Josserand071	NA	NA	NA
+A04	*a	e	NA	ʔje		V	Josserand066	NA	S05	NA
+A05	*a	i	NA	ʔje		V	Josserand066	NA	S05	E01
+A06	*a	e	eʔj			V	Josserand070			
+A07	*a	i	eʔj			V	Josserand070			
+A08	*a	o	aʔw	NA		V		NA	NA	W09
+A09	*a	o	uʔw			V				
+A10	*a	i	uʔw	NA		V		NA	NA	NA
+A11	*a	o		ko		V	Josserand074			
+A12	*a	o	kʷ	#		V				
+D01	*ⁿd	ⁿdʒ	NA	i		C		NA	NA	NA
+D02	*ⁿd	n	NA	itʃ{ĩ,ẽ}		C		NA	NA	NA
+D03	*ⁿd	n		i,e		C				
+D04	*ⁿd	n		a,ɨ,o,u		C				
+D05	*ⁿd	ⁿdʒ	NA	ɨ		C		Y01; Y02	NA	NA
+D06	*ⁿd	ⁿdz	NA	ɨ		C		Y01; Y02	NA	NA
+D07	*ⁿd	ⁿdʲ	NA	ɨ		C		NA	Y01; Y02	NA
+D08	*ⁿd	ⁿdʑ	NA	ɨ,e		C		Y01; Y02	NA	NA
+D09	*ⁿd	ⁿdʒ		e		C		NA	NA	NA
+D10	*ⁿd	ⁿdz	NA	e		C		NA	NA	NA
+D11	*ⁿd	ⁿdʲ		a(<e)		C		E16	NA	NA
+D12	*ⁿd	ⁿdzʲ	NA	e		C		NA	NA	NA
+D13	*ⁿd	ⁿdʒ	ʔ	a(<e)#		C				
+E01	*e	a	#j	tĩ,ni		V	Josserand084	NA	NA	NA
+E02	*e	a	#j	tʃĩ		V	Josserand084	NA	NA	NA
+E03	*e	i	NA	(ʔ)ji		V	Josserand086	NA	NA	A01; S08; T09
+E04	*e	a	NA	ju		V	Josserand088	NA	NA	NA
+E05	*e	a	NA	ʔju		V	Josserand088	NA	NA	NA
+E06	*e	a	NA	jũ		V	Josserand089	NA	NA	NA
+E07	*e	a	aʔj	NA		V		NA	NA	NA
+E08	*e	i	aʔj	NA		V		NA	NA	NA
+E09	*e	a	ej	je		V	Josserand085, Josserand087	NA	NA	NA
+E10	*e	i	ej	je		V	Josserand085, Josserand087	NA	NA	NA
+E11	*e	a	(e)	ʔ({e,ẽ})	e to a with only glottal stop (eʔe canon)	V	Josserand076, Josserand078	NA	NA	NA
+E12	*e	o	joʔw	NA		V	Josserand083	NA	NA	NA
+E13	*e	a	ow	NA		V	Josserand083	NA	NA	NA
+E14	*e	a	oʔw	NA		V	Josserand083	NA	NA	NA
+E15	*e	a	kʷ	ti		V	Josserand082	NA	NA	NA
+E16	*e	a	tʃ	t{u,ũ}		V	Josserand079	NA	NA	NA
+E17	*e	a	{i,u}t	NA		V	Josserand077	NA	T04; T11	NA
+E18	*e	a	#utʃ	NA		V	Josserand080	NA	X13	NA
+E19	*ẽ	a, ã	Cutʃ	ʔ#		V	Josserand081			
+E20	*ẽ	a, ã	Citʃ	ʔ#		V	Josserand081			
+E21	*e	a	on	NA		V	Josserand077	NA	N01	NA
+E22	*e	a	ⁿd	(ʔ)#		V	Josserand076			
+G01	*ʔ	ø	NA	#		S		NA	NA	NA
+G02	*ʔ	ø	NA	w		S		NA	NA	NA
+G03	*ø	ʔ	NA	NA		S		NA	NA	NA
+I01	*i	u	#	{s,t}u		V		NA	I10	NA
+I02	*i	ji	#	s,t		V		I09	NA	NA
+I03	*i	u	aw	NA		V	Josserand009	NA	NA	NA
+I04	*i	u	aʔw	NA		V	Josserand009	NA	NA	NA
+I05	*i	o	a(ʔ)w	NA		V	Josserand009	NA	NA	NA
+I06	*i	ɨ	a(ʔ)w	NA		V	Josserand009	NA	NA	J10
+I07	*i	u	#uw			V	Josserand008			
+I08	*i	u	Cuw	NA		V	Josserand006	NA	NA	NA
+I09	*i	u	Cuʔw	NA		V	Josserand007	NA	NA	NA
+I10	*i	y	uw							
+I11	*i	e	e(ʔ)j	NA		V	Josserand002	NA	NA	NA
+I12	*i	u	NA	jĩ		V		NA	NA	NA
+I13	*i	u	n	jũ		V		U to O		
+I14	*i	u	u{t,tʃ}	NA		V	Josserand015	NA	T01; X15	NA
+I15	*i	u	ⁿd	tʃẽ		V		NA	NA	NA
+I16	*i	y	ⁿd	tʃẽ						
+I17	*i	u	kʷ	tʃĩ		V		NA	NA	NA
+I18	*i	u	kʷ	ka		V		NA	NA	NA
+I19	*i	u	NA	kõ		V	Josserand012	NA	NA	NA
+I20	*i	ø	s	ta		V	Josserand011			
+I21	*i	ø	s	to		V	Josserand011			
+I22	*i	ø	s	tĩ		V	Josserand011			
+J01	*j	ø	#	is(<ɨ,o,u)	loss of initial j before secondary i (changed from other PMx vowels)	C		NA	Y01; Y02; u to i, o to i	NA
+J02	*j	ø	#	{e,o,u}{t,tʃ}{ĩ,ẽ}, eni		C		NA	NA	NA
+J03	*j	ɲ	#	V(ʔ)Ṽ		C		NA	NA	NA
+J04	*j	ɲ	#	VnV		C				
+J05	*j	ɲ	#	ujũ	probably generalized: VjṼ	C				
+J06	*j	ɲ	#	{a,o,u}(ʔ)w{ã,ẽ,ĩ}	V(ʔ)wṼ	C				
+J07	*j	ɲ	#	{e,u}{k,t}{ĩ,ẽ,ũ}		C				
+J08	*j	ɲ	#	{e,u}tʃ{ĩ,ẽ}		C				
+J09	*j	ɲ	#V1	Ṽ2		C		nasalization between to qualitatively different (secondary) vowels	after all vowel changes	
+J10	*j	ɲ	CV1	Ṽ2		C		nasalization between to qualitatively different (secondary) vowels	after all vowel changes	
+J11	*j	ø	CV1	Ṽ2		C		loss between to qualitatively different (secondary) vowels	after all vowel changes	
+J12	*j	ø	CV1	V2		C		loss between to qualitatively different (secondary) vowels	after all vowel changes	
+J13	*j	ø	CV1	V1,Ṽ1		C		loss between identical (secondary) vowels	after all vowel changes	
+K01	*k	kʷ	NA	uʔwa		C		NA	NA	NA
+K02	*k	kʷ	kʷi	NA		C		NA	NA	NA
+K03	*k	kʲ	NA	uʔwa		C		NA	NA	E13
+K04	*k	x	NA	ɨ̃		C		NA	NA	NA
+K05	*k	x	NA	ũ		C		NA	NA	NA
+K06	*k	x	#	VCṼ,nV		C		NA	NA	NA
+K07	*k	ø	σ	ɨ̃,õ,ũ		C		NA	NA	NA
+N01	*n	ɲ	NA	e		C		E19	NA	NA
+N02	*n	ɲ	j(o)	o		C		NA	NA	NA
+N03	*n	ɲ	NA	i		C				
+O01	*o	u	k	jõ		V	Josserand057			
+O02	*õ	ũ	koj			V	Josserand059			
+O03	*õ	ĩ	koj			V	Josserand059			
+O04	*o	u	#(o)	ʔ(õ)	both o (oral and nasal) turn into u around a glottal stop	V	Josserand056			
+O05	*o	u	n(o)	ʔ(o)	both o (oral and nasal) turn into u around a glottal stop after n	V	Josserand056			
+O06	*o	u	s(o)	ʔn(o)	both o (oral and nasal) turn into u around a glottal stop followed by n	V				
+O07	*o	u	j(o)	n(o)		V	Josserand058, Josserand059			
+O08	*o	u	n	ni		V	Josserand060			
+O09	*o	u	#	ni		V	Josserand060			
+O10	*o	u	#	ne		V	Josserand060			
+O11	*o	u	#	we		C	Josserand054			
+O12	*o	i	#	we		V	Josserand054			
+O13	*o	e	#	we		V	Josserand054			
+O14	*o	a	#	we		V	Josserand054			
+O15	*o	u	#	ʔwe		V	Josserand054			
+O16	*o	i	#	ʔwe		V	Josserand054			
+O17	*o	e	#	ʔwe		V	Josserand054			
+O18	*o	a	#	ʔwe		V	Josserand054			
+O19	*o	wa	#	ʔwe		V	Josserand054			
+O20	*o	jo	#	(ʔ)we	insertion of initial glide j	V				
+O21	*o	u	j	ʔwe		V				
+O22	*o	i	j	ʔwe		V				
+O23	*o	e	j	ʔwe		V				
+O24	*o	a	j	ʔwe		V				
+O25	*o	u	j	ʔwẽ		V				
+O26	*o	i	j	ʔwẽ		V				
+O27	*o	u	t	wĩ		V	Josserand055			
+O28	*o	ɨ	t	wĩ		V	Josserand055			
+O29	*o	u	k	wĩʔ		V				
+O30	*o	ɨ	k	wĩʔ		V				
+Q01	*kʷ	k	NA	ika		C		NA	NA	NA
+Q02	*kʷ	k	NA	itʃĩ		C		NA	NA	I12
+Q03	*kʷ	k	σ	a		C		NA	NA	NA
+Q04	*kʷ	xʷ	NA	Ṽ		C		NA	NA	NA
+S01	*s	ð	NA	ɨ,e,a,o,u,ɨ̃,ẽ,ũ		C		NA	NA	NA
+S02	*s	ð		i,ĩ		C				
+S03	*s	h	NA	ɨ,a,o,ɨ̃		C		NA	NA	NA
+S04	*s	h	NA	i,e,ĩ,ẽ		C		NA	NA	NA
+S05	*s	h	#	u,ũ		C		NA	NA	NA
+S06	*s	ʃ	NA	i,e,ĩ,ẽ		C		A01; A02, 	needs to happen after the i is lost	NA
+S07	*s	ʃ	σ	{i,ĩ}(ʔ)#		C				
+S08	*s	ø	#	ita		C		NA	A01	NA
+S09	*s	ø	#	itĩ		C				
+S10	*s	ø	si	i		C		NA	NA	NA
+S11	*si	iʃ	#	t		C		NA	NA	NA
+S12	*si	is	#	t		C		NA	NA	NA
+T01	*t	tʃ	NA	i		C		I09	NA	NA
+T02	*t	tʃ	NA	ĩ		C		NA	NA	NA
+T03	*t	ts	NA	i,ɨj		C		Y01; Y02	NA	E01
+T04	*t	tʃ	NA	ɨ		C		Y01; Y02	NA	NA
+T05	*t	tʃ	NA	ɨ+j	across morpheme boundary	C		Y01; Y02	NA	NA
+T06	*t	tʃ		ɨ+[!j]	across morpheme boundary	C				
+T07	*t	ts	NA	ɨ		C		Y01; Y02	NA	NA
+T08	*t	ts		ɨ+j		C				
+T09	*t	tsʲ		ɨ+j		C				
+T10	*t	tʲ	NA	ɨ		C		NA	Y01; Y02	NA
+T11	*t	tʲ	NA	ɨ+j	across morpheme boundary	C		NA	Y01; Y02	NA
+T12	*t	tɕ	NA	ɨ,e		C		Y01; Y02	NA	NA
+T13	*t	s	NA	ɨ		C		Y01; Y02	NA	NA
+T14	*t	tʃ	NA	e		C		NA	NA	NA
+T15	*t	tʃ	NA	a<*e		C		after a to e	NA	NA
+T16	*t	ts	NA	a<*e		C		after a to e	NA	NA
+T17	*t	tsʲ	NA	e		C		NA	NA	NA
+T18	*t	c	{i,u}	e		C		NA	NA	NA
+T19	*t	tʲ	NA	e		C		NA	NA	NA
+T20	*t	tʲ	NA	a<*e		C		after a to e	NA	NA
+T21	*t	tʲ	NA	u		C		NA	NA	NA
+T22	*t	tⁿ	NA	ĩ		C		NA	NA	NA
+T23	*t	tⁿ	NA	ã,õ,ũ,uN,oN,aN		C		NA	NA	NA
+T24	*t	n	σ	ã,ĩ,õ,ũ		C		NA	NA	NA
+U01	*u	o	#	wi		V	Josserand040	NA	NA	NA
+U02	*u	i	#	wi		V	Josserand040	NA	NA	NA
+U03	*u	ɨ	#	wi		V	Josserand040			
+U04	*u	e	#	wi		V	Josserand040			
+U05	*u	i	#	tʃ{i,e}		V		NA	NA	NA
+U06	*u	i	#is	NA		V	Josserand043	NA	NA	NA
+U07	*u	i	#it	NA		V	Josserand043	NA	NA	NA
+U08	*u	i	{k,ⁿd}	(ʔ)wi		V		NA	NA	NA
+U09	*u	o	{s,k}	ʔwẽ		V	Josserand050			
+U10	*u	i	{s,k}	ʔwẽ		V	Josserand050			
+U11	*u	o	k	ʔwa		V		NA	NA	NA
+U12	*u	i	k	ʔwa		V		NA	NA	NA
+U13	*u	a	k	ʔwa		V		NA	NA	NA
+U14	*u	i	s	kũ		V	Josserand051	after u to o	NA	NA
+U15	*u	o	s	kũ		V	Josserand051	NA	NA	NA
+U16	*u	i	{s,t}u{t}			V		NA	NA	NA
+U17	*u	i	{s,t}	tu	u to i in the context of dental consonants	V	Josserand052	NA	NA	NA
+U18	*u	o	#n			V	Josserand049			
+U19	*u	o	σn	(ʔ)#		V	Josserand049	NA	NA	NA
+U20	*ũ	õ	t	(ʔ)#	final ũ after t	V	Josserand045, Josserand051, Josserand052	NA	NA	NA
+U21	*ũ	õ	t(uʔ)		tu(ʔ)u	V				
+U22	*ũ	õ	suk			V	Josserand051			
+U23	*u	o	j	(ʔ)#		V	Josserand027			
+U24	*ũ	õ	j(u)	(ʔ)(ũ)	u to o if nasalized with no intervening consonant, only glottal stop	V	Josserand037			
+U25	*u	o	j	wa		V		NA	NA	NA
+U26	*u	i	j	wa		V				
+U27	*u	o	j	wẽ		V	Josserand033, Josserand038			
+U28	*u	i	j	wẽ		V	Josserand033, Josserand038	NA	NA	NA
+U29	*u	i	j	wi		V	Josserand031, Josserand041	NA	NA	NA
+U30	*u	i	j	ku		V	Josserand030	NA	NA	NA
+U31	*u	i	j	kũ		V	Josserand030	NA	NA	NA
+U32	*u	i	j	te		V	Josserand028	NA	NA	NA
+U33	*u	i	j	tũ		V	Josserand028	NA	NA	NA
+U34	*u	i	j	tʃẽ		V	Josserand038	NA	NA	NA
+U35	*u	i	j	(ʔ)	everywhere after j except contexts already listed	V	Josserand027, Josserand036, Josserand039	NA	NA	NA
+U36	*u	i	j	j		V	Josserand029, Josserand035			
+V01	*̃	ø	C[!jw]	NA		S		NA	NA	NA
+W01	*w	ø	a	i		C		NA	NA	NA
+W02	*w	ø	aʔ	i		C		NA	NA	NA
+W03	*w	ø	aʔ	a		C		NA	NA	A06
+W04	*w	ø	aʔ	ã		C		NA	NA	NA
+W05	*w	ø	kɨ	ɨ		C		NA	NA	NA
+W06	*w	ø	ⁿdɨ	ɨ		C				
+W07	*w	ø	o	ĩ		C		NA	NA	NA
+W08	*w	ø	o	e		C		NA	NA	NA
+W09	*w	ø	joʔ	e		C				
+W10	*w	ø	#oʔ	e		C		NA	NA	NA
+W11	*w	ø	#oʔ	ẽ		C		NA	NA	NA
+W12	*w	ø	ju	i		C		NA	NA	NA
+W13	*w	ø	[!j]u	i		C		NA	NA	NA
+W14	*w	ø	uʔ	i		C		NA	NA	NA
+W15	*w	ø	uʔ	a		C		NA	NA	NA
+W16	*w	m	NA	Ṽ		C		NA	NA	NA
+W17	*w	m	NA	Vʔⁿd		C		NA	NA	NA
+W18	*w	m	NA	VtʃṼ		C		NA	NA	NA
+X01	*tʃ	ts	NA	i,ɨ,e,a,ĩ,ẽ		C		NA	NA	NA
+X02	*tʃ	ɕ	NA	i,ɨ,e,a,ĩ,ẽ		C		NA	NA	NA
+X03	*tʃ	h	NA	i,ɨ,e,a,ĩ,ẽ		C		NA	NA	NA
+X04	*tʃ	ʃ	NA	i		C		I09	NA	NA
+X05	*tʃ	ʃ	NA	ĩ		C		NA	NA	NA
+X06	*tʃ	ʃ	NA	ẽ		C		NA	NA	NA
+X07	*tʃ	ʃ	NA	a		C		E17	NA	NA
+X08	*tʃ	ʃ	#	ɨ		C		NA	Y01; Y02	NA
+X09	*tʃ	ʒ		i,ɨ,e,a		C				
+X10	*tʃ	ʒ		ĩ,ẽ		C				
+X11	*tʃ	s	NA	i		C		NA	NA	NA
+X12	*tʃ	s	NA	ĩ		C		NA	NA	NA
+X13	*tʃ	s	#	ɨ		C		NA	NA	NA
+X14	*tʃ	s	NA	e, ẽ		C		NA	NA	NA
+X15	*tʃ	x		i,ɨ,e,a,ẽ		C				
+X16	*tʃ	x		ĩ		C				
+X17	*tʃ	ø	#	i		C		NA	NA	NA
+X18	*tʃ	ø	#	ɨ		C		NA	Y01; Y02	NA
+X19	*tʃ	ø	i	ĩ		C		NA	NA	NA
+X20	*tʃ	ɲ	NA	ẽ		C		NA	NA	NA
+Y01	*ɨ	i	σ	(ʔ)#	ɨ to i in the final syllable	V	Josserand025, Josserand026	J05; J13; ND12; T16; T17; X07; X17	ND02; ND05; ND07; ND09; T02; T03; T08; T09; T11; T13	NA
+Y02	*ɨ	i	{k,n,ⁿd,t,tʃ}	Cɨ	ɨ to i in the first syllable of bysillabic words with C onsets	V	Josserand019, Josserand020, Josserand021	J05; J13; ND12; T16; T17; X07; X17	ND02; ND05; ND07; ND09; T02; T03; T08; T09; T11; T13	NA
+Y03	*ɨ	i	j(ɨ)	(ʔ)(ɨ̃)	nasal ɨ to i after j in monosyllables or bisyllables with glottal stop	V	Josserand022	J05; J13	NA	NA
+Y04	*ɨ	e	NA	NA	ɨ to e globally	V	Josserand019, Josserand020, Josserand021, Josserand022, Josserand023, Josserand024, Josserand025, Josserand026	NA	NA	NA
+Y05	*ɨ	u	w	NA		V	Josserand024	NA	NA	NA
+Y06	*ɨ	u	NA	w		V	Josserand020	NA	NA	NA
+Y07	*ɨ̃	ũ	as	NA		V		NA	NA	NA
+U37	*u	y	#j	(ʔ)						
+U38	*u	y		C{i,e,u}						
+Q05	*kʷ	kʷʲ		Vj						

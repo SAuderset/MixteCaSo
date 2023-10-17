@@ -1,0 +1,106 @@
+DOCULECT	VillageName	Abbreviation	MapAbbr	AudersetGroup	AudersetGroupSub	AudersetGroupLow	JosserandArea	JosserandAreaSub	Latitude	Longitude	Glottocode	ISO639P3code	JosserandCode	AudersetCode	SOURCE
+AbasoloValleMixtec	Abasolo del Valle	Abasolo	abas	Group 7	Group 71	NA	Mixtepec	NA	17.78287	-95.54381	mixt1425	mix	NA	abas11	galindo-sanchez2009vocabulario
+AlacatlatzalaMixtec	Alacatlatzala	Alacatlatzala	alac	Group 7	Group 73	Group 731	Guerrero	NA	17.25	-98.58	alac1244	mim	alac	alac11	zylstra2012gramatica; anderson2006vocabulario; zylstra1991syntactic; josserand1983mixtec; durr1987preliminary
+AlcozaucaGuerreroMixtec	Alcozáuca de Guerrero	Alcozauca	alco	Group 7	Group 73	Group 731	Guerrero	NA	17.3687	-98.3969	alco1235	xta	alco	alco11	swanton2020observaciones; josserand1983mixtec
+CahuatacheMixtec	Cahuatache	Cahuatache	cahu	Group 7	Group 73	Group 731	Guerrero	NA	17.41506	-98.53192	alac1244	mim	cah	cahu11	durr1987preliminary; josserand1983mixtec
+ChalcatongoHidalgoMixtec	Chalcatongo de Hidalgo	Chalcatongo	chal	Group 6	Group 62	Group 622	Western Alta	NA	17.03226	-97.57074	sanm1296	mig	chal	chal11	swanton2020observaciones; macaulay1996grammar; josserand1983mixtec
+CoicoyanlasFloresMixtec	Coicoyán de las Flores	Coicoyan	coic	Group 7	Group 73	NA	Southern Baja	NA	17.27301	-98.27588	coic1238	jmx	coi	coic11	josserand1983mixtec
+CosoltepecMixtec	Cosoltepec	Cosoltepec	coso	Group 7	Group 74	NA	Northern Baja	NA	18.14291	-97.79059	chaz1235	xtb	cos	coso11	josserand1983mixtec
+CuatzoquitengoMixtec	Cuatzoquitengo	Cuatzoquitengo	cuat	Group 7	Group 73	Group 731	Guerrero	NA	17.28835	-98.61552	cuat1239	mim	cuat	cuat11	josserand1983mixtec
+CuyamecalcoVillaZaragozaMixtec	Cuyamecalco Villa de Zaragoza	Cuyamecalco	cuya	Group 1	NA	NA	Northern Alta	NA	17.96525	-96.83107	cuya1240	xtu	cuya	cuya11	josserand1983mixtec
+ElJicaralMixtec	El Jicaral	ElJicaral	jicl	Group 7	Group 73	NA	Southern Baja	NA	17.12602	-98.196842	coic1238	jmx	NA	jica13	martin2020diccionario
+GuadalupeVillahermosaMixtec	Guadalupe Villahermosa (El Portesuelo)	Guadalupe	guad	Group 7	Group 76	NA	Central Baja	NA	17.75898	-98.01539	NA	NA	guad	guad11	josserand1983mixtec
+IxpantepecNievesMixtec	Ixpantepec Nieves	IxpantepecNieves	ixpa	Group 7	Group 72	NA	Southern Baja	NA	17.50717	-98.04556	sila1250	mks	ixpn	ixpa11	josserand1983mixtec
+LaBateaMixtec	La Batea	LaBatea	bate	Group 7	Group 71	NA	Mixtepec	NA	17.35948	-97.83233	mixt1425	mix	NA	bate11	ramirez2020vocabulario
+MagdalenaPenascoMixtec	Magdalena Peñasco	MagdalenaPeñasco	mpen	Group 3	Group 32	NA	Western Alta	NA	17.2837	-97.5413	magd1235	xtm	NA	pena11	hollenbach2017diccionario
+MetlatonocMixtec	Metlatónoc	Metlatonoc	metl	Group 7	NA	NA	Southern Baja	NA	17.1947	-98.40703	metl1238	mxv	metl	metl11	durr1987preliminary; josserand1983mixtec
+PiedraAzulMixtec	Piedra Azul	PiedraAzul	piaz	Group 7	Group 73	NA	Southern Baja	NA	17.380833	-98.185833	NA	NA	NA	pied12	mendoza2020vocabulario
+PinotepaDonLuisMixtec	Pinotepa de Don Luis	PinotepaDonLuis	pinl	Group 2	Group 22	NA	Coast	West	16.42666	-97.97647	pino1237	mio	pinl	pino12	josserand1983mixtec
+SanAgustinAtenangoMixtec	San Agustín Atenango	Atenango	aten	Group 7	Group 76	NA	Central Baja	NA	17.61188	-98.01527	NA	NA	aten	aten11	josserand1983mixtec
+SanAgustinChayucoMixtec	San Agustín Chayuco	Chayuco	chay	Group 2	Group 22	Group 221	Coast	East	16.42	-97.83	chay1249	mih	chay, chayc, chayd	chay11	durr1987preliminary; josserand1983mixtec; pensinger1974diccionario
+SanAgustinTlacotepecMixtec	San Agustín Tlacotepec	Tlacotepec	tlac	Group 3	Group 32	NA	Western Alta	NA	17.20365	-97.51853	sana1284	xtm	tlac	tlac11	josserand1983mixtec
+SanAndresNuxinoMixtec	San Andrés Nuxiño	Nuxiño	nuxi	Group 4	Group 41	NA	Eastern Alta	NA	17.23883	-97.10497	NA	NA	nuxi	nuxi11	josserand1983mixtec
+SanAndresYutatioMixtec	San Andrés Yutatío	Yutatio	yuta	Group 7	Linkage 75	NA	Tezoatlan	NA	17.60626	-97.89428	NA	NA	NA	yuta13	williams2017diccionario
+SanAntonioHuitepecMixtec	San Antonio Huitepec	Huitepec	huit	Group 4	NA	NA	Eastern Alta	Teozacoalco	16.9476	-97.1236	huit1252	mxs	huit	huit11	josserand1983mixtec
+SanAntonioTepetlapaMixtec	San Antonio Tepetlapa	Tepetlapa	tepe	Group 2	Group 22	NA	Coast	West	16.54182	-98.06578	NA	NA	tept	tepe12	josserand1983mixtec
+SanBartoloSoyaltepecMixtec	San Bartolo Soyaltepec	Soyaltepec	soya	Linkage 5	Group 51	NA	Northeastern Alta	NA	17.5892	-97.1921	soya1236	vmq	soy	soya11	josserand1983mixtec
+SanBartolomeYucuaneMixtec	San Bartolomé Yucuañe	Yucuane	yuce	Group 3	Group 31	NA	Western Alta	NA	17.2832	-97.4285	yucu1250	mvg	yuca	yucu11	josserand1983mixtec
+SanEstebanAtatlahucaMixtec	San Esteban Atatlahuca	Atatlahuca	atat	Group 6	Group 62	Group 622	Western Alta	NA	17.07133	-97.67753	atat1238	mib	atat	atat11	durr1987preliminary; josserand1983mixtec; alexander1980gramatica
+SanFranciscoSayultepecMixtec	San Francisco Sayultepec	Sayultepec	sayu	Group 2	Group 22	NA	Coast	West	16.59537	-98.12933	pino1237	mio	sayu	sayu11	josserand1983mixtec
+SanJeronimoProgresoMixtec	San Jerónimo Progreso	Progreso	prog	Group 7	Group 73	NA	Southern Baja	NA	17.44616	-98.15466	sila1250	mks	silp	prog12	shields1988syntactic; durr1987preliminary; josserand1983mixtec
+SanJeronimoXayacatlanMixtec	San Jerónimo Xayacatlán	Xayacatlan	xaya	Group 7	Group 74	Group 741	Northern Baja	NA	18.22159	-97.91563	south3001	mit	jer	xaya11	durr1987preliminary; josserand1983mixtec
+SanJorgeNuchitaMixtec	San Jorge Nuchita	Nuchita	nuch	Group 7	Group 76	NA	Central Baja	NA	17.65569	-98.10499	sila1250	mks	nuch	nuch11	josserand1983mixtec
+SanJuanCoatzospamMixtec	San Juan Coatzóspam	Coatzospam	coat	Group 1	NA	NA	Northern Alta	NA	18.05017	-96.76363	coat1241	miz	coat	coat11	small1990syntactic; durr1987preliminary; josserand1983mixtec
+SanJuanColoradoMixtec	San Juan Colorado	Colorado	colo	Group 2	Group 22	NA	Coast	East	16.46073	-97.95446	sanj1281	mjc	colo	colo11	stark1986diccionario; josserand1983mixtec
+SanJuanDiuxiMixtec	San Juan Diuxi	Diuxi	diux	Linkage 5	NA	NA	Eastern Alta	NA	17.3596	-97.3861	diux1236	xtd	diux	diux11	kuiper1991syntactic;  durr1987preliminary; josserand1983mixtec
+SanJuanMixtepecMixtec	San Juan Mixtepec	Mixtepec	mixt	Group 7	Group 71	NA	Mixtepec	NA	17.3317	-97.8791	mixt1425	mix	mix	mixt11	durr1987preliminary; josserand1983mixtec;
+SanJuanNumiMixtec	San Juan Ñumi	Numi	numi	Linkage 5	NA	NA	Western Alta	NA	17.39759	-97.70603	nort2985	xtn	ñumi	numi11	josserand1983mixtec
+SanJuanTamazolaMixtec	San Juan Tamazola	Tamazola	tama	Group 4	NA	NA	Eastern Alta	Teozacoalco	17.1258	-97.0998	tama1339	vmx	tamj	tama11	josserand1983mixtec
+SanJuanTeitaMixtec	San Juan Teita	Teita	teit	Group 3	Group 31	NA	Western Alta	NA	17.1542	-97.3899	sanj1282	xtj	teit	teit11	josserand1983mixtec
+SanLorenzoMixtec	San Lorenzo	Lorenzo	lore	Group 2	Group 22	Group 221	Coast	East	16.39429	-97.87421	NA	NA	lor	lore11	josserand1983mixtec
+SanLuisMoreliaMixtec	San Luis Morelia	Morelia	more	Group 7	Group 76	NA	Central Baja	NA	17.70342	-98.21456	tama1339	vmx	mor	more11	josserand1983mixtec
+SanMarcoslaFlorMixtec	San Marcos de la Flor	MarcoslaFlor	flor	Group 7	Group 73	NA	Southern Baja	NA	17.418889	-98.268611	sanm1291	jmx	NA	flor12	Anonymous p.c.
+SanMartinEstadoMixtec	San Martín del Estado	Estado	esta	Group 7	Group 76	NA	Western Baja	NA	17.56721	-98.17607	NA	NA	silm	esta11	josserand1983mixtec
+SanMartinDuraznosMixtec	San Martín Duraznos	Duraznos	dura	Group 7	Group 72	NA	Southern Baja	NA	17.30502	-98.10188	juxt1235	vmc	durz	dura11	hernandez2020san-martin; josserand1983mixtec
+SanMartinPerasMixtec	San Martín Peras	Peras	pera	Group 7	Group 73	NA	Southern Baja	NA	17.35912	-98.23725	sanm1291	jmx	pera	pera11	josserand1983mixtec
+SanMateoSindihuiMixtec	San Mateo Sindihui	Sindihui	sind	Group 4	NA	NA	Eastern Alta	Teozacoalco	17.02	-97.3036	sind1277	xts	sind	sind11	josserand1983mixtec
+SanMiguelAchiutlaMixtec	San Miguel Achiutla	Achiutla	achi	Group 3	Group 32	NA	Western Alta	NA	17.3065	-97.48886	sanm1292	xtm	achi	achi11	josserand1983mixtec
+SanMiguelAhuehuetitlanMixtec	San Miguel Ahuehuetitlán	Ahuehuetitlan	ahue	Group 7	Group 76	NA	Western Baja	NA	17.67151	-98.32045	sila1250	mks	ahue	ahue11	josserand1983mixtec
+SanMiguelChicahuaMixtec	San Miguel Chicahua	Chicahua	chic	Linkage 5	Group 51	NA	Northeastern Alta	NA	17.63719	-97.19479	NA	NA	chic	chic11	josserand1983mixtec
+SanMiguelElGrandeMixtec	San Miguel El Grande	ElGrande	gran	Group 6	Group 62	Group 622	Western Alta	NA	17.04688	-97.62248	sanm1295	mig	mig	gran11	durr1987preliminary; josserand1983mixtec
+SanMiguelPiedrasMixtec	San Miguel Piedras	Piedras	pied	Group 4	NA	NA	Eastern Alta	Teozacoalco	16.9944	-97.2056	sanm1294	xtp	pied	pied11	josserand1983mixtec
+SanPedroAtoyacMixtec	San Pedro Atoyac	Atoyac	atoy	Group 2	Group 22	NA	Coast	West	16.48865	-97.9864	NA	NA	atoy	atoy11	josserand1983mixtec
+SanPedroJicayanMixtec	San Pedro Jicayán	Jicayan	jicy	Group 2	Group 22	NA	Coast	West	16.45235	-98.0151	NA	NA	jicy	jica12	josserand1983mixtec
+SanPedroJocotipacMixtec	San Pedro Jocotipac	Jocotipac	joco	Linkage 5	Group 51	NA	Northeastern Alta	Apoala	17.7687	-97.07983	NA	NA	joco	joco11	josserand1983mixtec
+SanPedroMolinosMixtec	San Pedro Molinos	Molinos	moli	Group 6	Group 62	Group 622	Western Alta	NA	17.10495	-97.54152	sanp1259	mig	moli	moli11	durr1987preliminary; josserand1983mixtec
+SanPedroTidaaMixtec	San Pedro Tidaá	Tidaa	tida	Linkage 5	NA	NA	Eastern Alta	NA	17.4142	-97.3333	tida1235	mtx	tida	tida11	josserand1983mixtec
+SanPedroTututepecMixtec	San Pedro Tututepec	Tututepec	tutu	Group 2	Group 22	Group 221	Coast	East	16.12987	-97.6085	tutu1243	mtu	NA	tutu12	josserand1983mixtec
+SanPedroySanPabloTeposcolula1600Mixtec	San Pedro y San Pablo Teposcolula 1600	Teposcolula1600	tepo	Unclear	NA	NA	Eastern Alta	NA	17.51167	-97.48883	NA	NA	NA	tepo01	josserand1983mixtec
+SanPedroYosonamaMixtec	San Pedro Yosoñama	Yosonama	yosn	Linkage 5	NA	NA	Western Alta	NA	17.4272	-97.77267	yoso1238	xtn	NA	yoso14	gittlen2016gramatica
+SanSebastianMonteMixtec	San Sebastián del Monte	SebastianMonte	mont	Group 7	Group 76	NA	Central Baja	NA	17.6793	-98.02259	sila1250	mks	mont	mont12	solano2020san-sebastian; josserand1983mixtec
+SanSebastianTecomaxtlahuacaMixtec	San Sebastián Tecomaxtlahuaca	Tecomaxtlahuaca	teco	Group 7	Group 72	NA	Southern Baja	NA	17.34568	-98.0312	NA	NA	teco	teco11	josserand1983mixtec
+SantaAnaCuauhtemocMixtec	Santa Ana Cuauhtémoc	Cuauhtemoc	cuau	Group 1	NA	NA	Northern Alta	NA	17.98379	-96.79439	cuya1240	xtu	cuau	cuau11	josserand1983mixtec
+SantaCatarinaEstetlaMixtec	Santa Catarina Estetla	Estetla	este	Group 4	Group 42	NA	Eastern Alta	NA	17.02627	-97.0974	peno1244	mil	este	este11	josserand1983mixtec
+SantaCatarinaMechoacanMixtec	Santa Catarina Mechoacán	Mechoacan	mech	Group 2	Group 22	Group 221	Coast	East	16.33471	-97.83626	chay1249	mih	mech	mech11	josserand1983mixtec
+SantaCatarinaTlaltempanMixtec	Santa Catarina Tlaltempan	Tlaltempan	tlal	Group 7	Group 74	Group 741	Northern Baja	NA	18.61485	-98.08867	NA	NA	tlal	tlal11	josserand1983mixtec
+SantaCruzBravoMixtec	Santa Cruz de Bravo	CruzBravo	crub	Group 7	Group 73	Group 731	Guerrero	NA	17.58093	-98.22383	NA	NA	cruz	brav11	josserand1983mixtec
+SantaCruzItundujiaMixtec	Santa Cruz Itundujia	Itundujia	itun	Group 6	Group 62	Group 622	Western Alta	NA	16.87521	-97.59753	itun1239	mce	itun	itun11	josserand1983mixtec
+SantaLuciaMonteverdeMixtec	Santa Lucía Monteverde	Monteverde	mver	Group 6	Group 62	Group 622	Western Alta	NA	16.9969	-97.6277	sant1439	mdv	verd	mont13	josserand1983mixtec
+SantaMariaAcatepecMixtec	Santa María Acatepec	Acatepec	acat	Group 2	Group 22	Group 221	Coast	Acatepec	16.148889	-97.511389	sant1441	mtu	acat	acat11	josserand1983mixtec
+SantaMariaApazcoMixtec	Santa María Apazco	Apazco	apaz	Linkage 5	Group 51	NA	Northeastern Alta	Apoala	17.63464	-97.10062	apas1235	mip	apas	apas11	josserand1983mixtec
+SantaMariaChigmecatitlanMixtec	Santa María Chigmecatitlán	Chigmecatitlan	chig	Group 7	Group 74	Group 741	Northern Baja	NA	18.6303	-98.1046	chig1239	mii	chig	chig11	josserand1983mixtec
+SantaMariaHuazolotitlanMixtec	Santa María Huazolotitlán	Huazolotitlan	huaz	Group 2	Group 22	Group 221	Coast	East	16.3019	-97.91488	NA	NA	huaz	huaz11	josserand1983mixtec
+SantaMariaJicaltepecMixtec	Santa María Jicaltepec	Jicaltepec	jica	Group 2	Group 22	NA	Coast	West	16.38086	-98.04128	pino1237	mio	jict	jica11	durr1987preliminary; josserand1983mixtec
+SantaMariaPenolesMixtec	Santa María Peñoles	Peñoles	peno	Group 4	Group 42	NA	Eastern Alta	NA	17.07959	-97.00272	sant1445	mil	peño	peno11	durr1987preliminary; josserand1983mixtec
+SantaMariaYolotepecMixtec	Santa María Yolotepec	Yolotepec	yolt	Group 3	Group 32	NA	Western Alta	NA	16.9648	-97.4537	taca1257	xtt	yolt	yolo11	josserand1983mixtec
+SantaMariaYucuhitiMixtec	Santa María Yucuhiti	Yucuhiti	yuch	Group 6	Group 62	Group 621	Western Alta	NA	17.03036	-97.78237	yucu1249	meh	yuci	yucu12	josserand1983mixtec
+SantaMariaYucunicocoMixtec	Santa María Yucunicoco	Yucunicoco	yucc	Group 7	Group 71	NA	Mixtepec	NA	17.2372	-97.91806	NA	NA	yuco	yucu15	josserand1983mixtec
+SantaMariaZacatepecMixtec	Santa María Zacatepec	Zacatepec	zaca	Group 2	Group 22	NA	Coast	West	16.7003	-97.9484	sant1436	mza	zac	zaca11	swanton2020observaciones; towne2011gramatica; josserand1983mixtec
+SantiagoApoalaMixtec	Santiago Apoala	Apoala	apoa	Linkage 5	Group 51	NA	Northeastern Alta	NA	17.64866	-97.1366	apas1235	mip	apoa	apoa11	josserand1983mixtec
+SantiagoCacaloxtepecMixtec	Santiago Cacaloxtepec	Cacaloxtepec	caca	Group 7	Linkage 75	NA	Tezoatlan	NA	17.7248	-97.7637	caca1250	miu	cac	caca11	durr1987preliminary; josserand1983mixtec
+SantiagoChazumbaMixtec	Santiago Chazumba	Chazumba	chaz	Group 7	Group 74	NA	Northern Baja	NA	18.1541	-97.7873	chaz1235	xtb	chaz	chaz11	josserand1983mixtec
+SantiagoIxtaltepecMixtec	Santiago Ixtaltepec	Ixtaltepec	ixtl	Linkage 5	Group 51	NA	Northeastern Alta	Apoala	17.54171	-97.11437	NA	NA	ixtl	ixta12	josserand1983mixtec
+SantiagoIxtayutlaMixtec	Santiago Ixtayutla	Ixtayutla	ixta	Group 2	Group 21	NA	Coast	East	16.5774	-97.5759	ixta1235	vmj	ixty	ixta11	josserand1983mixtec
+SantiagoJamiltepecMixtec	Santiago Jamiltepec	Jamiltepec	jami	Group 2	Group 22	Group 221	Coast	East	16.2279	-97.8417	jami1235	mxt	jam	jami11	johnson1988syntactic; josserand1983mixtec
+SantiagoJuxtlahuacaMixtec	Santiago Juxtlahuaca	Juxtlahuaca	juxt	Group 7	Group 71	NA	Southern Baja	NA	17.3518	-98.0146	juxt1235	vmc	juxt	juxt11	josserand1983mixtec
+SantiagoNuyooMixtec	Santiago Nuyoó	Nuyoo	nuyo	Group 6	Group 62	Group 621	Western Alta	NA	17.0147	-97.76674	nuyo1238	meh	nuyo	nuyo11	josserand1983mixtec
+SantiagoPinotepaNacionalMixtec	Santiago Pinotepa Nacional	PinotepaNacional	pino	Group 2	Group 22	Group 221	Coast	West	16.3043	-97.9966	pino1237	mio	pinn	pino11	josserand1983mixtec
+SantiagoTamazolaMixtec	Santiago Tamazola	SantiagoTamazola	stam	Group 7	Group 76	NA	Western Baja	NA	17.67041	-98.2216	NA	NA	tams	tama12	josserand1983mixtec
+SantiagoTilantongoMixtec	Santiago Tilantongo	Tilantongo	tila	Linkage 5	NA	NA	Eastern Alta	NA	17.3596	-97.3861	diux1236	xtd	til	tila11	josserand1983mixtec
+SantiagoTlazoyaltepecMixtec	Santiago Tlazoyaltepec	Tlazoyaltepec	tlz	Group 4	Group 42	NA	Eastern Alta	NA	17.02704	-96.9783	tlaz1235	mqh	NA	tlaz11	josserand1983mixtec
+SantiagoYosonduaMixtec	Santiago Yosondúa	Yosondua	yoso	Group 6	Group 62	Group 622	Western Alta	NA	16.9042	-97.5018	yoso1239	mpm	yoso	yoso11	farris1992syntactic; josserand1983mixtec
+SantoDomingoHuendioMixtec	Santo Domingo Huendio	Huendio	huen	Group 3	Group 32	NA	Western Alta	NA	17.25296	-97.5054	sant1440	xtm	NA	huen11	becerra-roldan2015un-estudio
+SantoDomingoNuxaaMixtec	Santo Domingo Nuxaá	Nuxaa	nuxa	Group 4	Group 41	NA	Eastern Alta	NA	17.21663	-97.12285	NA	NA	nuxa	nuxa11	josserand1983mixtec
+SantoDomingoTonahuixtlaMixtec	Santo Domingo Tonahuixtla	Tonahuixtla	tona	Group 7	Group 74	NA	Northern Baja	NA	18.20212	-97.89593	NA	NA	ton	tona11	josserand1983mixtec
+SantoTomasOcotepecMixtec	Santo Tomás Ocotepec	Ocotepec	ocot	Group 6	Group 61	NA	Western Alta	NA	17.14419	-97.76322	ocot1243	mie	oco	ocot11	alexander1988syntactic; durr1987preliminary; josserand1983mixtec
+SantosReyesTepejilloMixtec	Santos Reyes Tepejillo	ReyesTepejillo	reye	Group 7	NA	NA	Southern Baja	NA	17.43262	-97.93997	NA	NA	rey	reye11	josserand1983mixtec
+TepangoMixtec	Tepango	Tepango	tepa	Group 7	Group 73	Group 731	Southern Baja	NA	16.90322	-99.08613	ayut1236	miy	ayut	tepa11	hills1990syntactic; durr1987preliminary; josserand1983mixtec
+TepejilloMixtec	Tepejillo	Tepejillo	tepj	Group 7	Group 74	NA	Northern Baja	NA	18.05265	-97.83906	NA	NA	tepj	tepe11	josserand1983mixtec
+TlahuapaMixtec	Tlahuapa	Tlahuapa	tlah	Group 7	Group 73	Group 731	Guerrero	NA	17.37553	-98.33826	alco1235	xta	NA	tlah11	reyes-basurto2020tlahuapa
+XayacatlanBravoMixtec	Xayacatlán de Bravo	XayacatlanBravo	xayb	Group 7	Group 74	NA	Northern Baja	NA	18.2353	-97.97435	south3001	mit	xay	xaya12	josserand1983mixtec
+XochapaMixtec	Xochapa	Xochapa	xoch	Group 7	Group 73	Group 731	Guerrero	NA	17.38134	-98.44988	xoch1238	xta	NA	xoch11	stark2013diccionario
+YoloxochitlMixtec	Yoloxochitl	Yoloxochitl	yolo	Group 7	Group 73	Group 731	Guerrero	NA	16.8059	-98.6293	yolo1241	xty	yolx	yolo12	amith2021recursos; josserand1983mixtec
+YucunaniMixtec	Yucunani	Yucunani	yucn	Group 7	Group 71	NA	Mixtepec	NA	17.300827	-97.893888	mixt1425	mix	NA	yucu17	salazar2021vocabulario
+YucunutiBenitoJuarezMixtec	Yucuñuti de Benito Juárez	Yucunuti	yuct	Group 7	Linkage 75	NA	Tezoatlan	NA	17.63409	-97.89151	yucu1251	mxb	yucñ	yucu13	josserand1983mixtec
+YucuquimiOcampoMixtec	Yucuquimi de Ocampo	Yucuquimi	yucq	Group 7	Linkage 75	NA	Tezoatlan	NA	17.57853	-97.89014	NA	NA	yucq	yucu16	swanton2021observaciones; josserand1983mixtec
+ZapotitlanPalmasMixtec	Zapotitlán Palmas	Zapotitlan	zapo	Group 7	Group 74	NA	Northern Baja	NA	17.88959	-97.82406	NA	NA	zap	zapo11	josserand1983mixtec

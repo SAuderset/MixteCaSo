@@ -3,6 +3,8 @@
 This database provides a comprehensive archive of Mixtec sound changes, coded with a common methodology. It is a work in progress and continuously updated. For use in your own research and citation, please refer to the most recent release archived in Zenodo. The database is available under the Creative Commons Attribution Share Alike 4.0 International license.
 Questions, comments, corrections, and the like are most welcome! Please [open an issue](https://github.com/SAuderset/MixteCaSo/issues/new/choose) for that.
 
+The lexical, cognate coded data come from the [Mixtecan Cognate Database](https://github.com/SAuderset/MixteCoDB). There you can also find the metadata for the sample languages and the sources in a bib-file.
+
 ## MixteCaSo 1.0
 The initial creation of the database, which corresponds to its [first release (1.0)](https://github.com/SAuderset/mixtecan-cognate-database/releases/tag/v1.0) is explained in:
 * JOHD

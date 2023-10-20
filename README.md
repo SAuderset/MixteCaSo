@@ -3,7 +3,6 @@
 This database provides a comprehensive archive of Mixtec sound changes, coded with a common methodology. It is a work in progress and continuously updated. For use in your own research and citation, please refer to the most recent release archived in Zenodo. The database is available under the Creative Commons Attribution Share Alike 4.0 International license.
 Questions, comments, corrections, and the like are most welcome! Please [open an issue](https://github.com/SAuderset/MixteCaSo/issues/new/choose) for that.
 
-The lexical, cognate coded data come from the [Mixtecan Cognate Database](https://github.com/SAuderset/MixteCoDB). There you can also find the metadata for the sample languages and the sources in a bib-file.
 
 ## MixteCaSo 1.0
 The initial creation of the database, which corresponds to its [first release (1.0)](https://github.com/SAuderset/mixtecan-cognate-database/releases/tag/v1.0) is explained in:
@@ -11,6 +10,15 @@ The initial creation of the database, which corresponds to its [first release (1
 
 
 ## Folders, files and content
+### data
+The lexical, cognate coded data, metadata of the sample languages, and information about the sources come from the [Mixtecan Cognate Database](https://github.com/SAuderset/MixteCoDB). They are directly imported from that database and subset with a script that can be found in the scripts folder. For details, please refer to that repository.
+#### cognates:
+Lexical cognate coded data, that serves as the basis for the analysis. Subset of the Mixtecan Cognate Database.
+#### metadata:
+Metadata of the sample languages.
+#### sources:
+Bibliographic information about the sources of the language data.
+
 
 ### definitions:
 #### changes_segments
@@ -23,7 +31,6 @@ This file contains the definitions of the sound change variables.
 * NOTE = comments and explanations
 * CLASS = whether the change concern a vowel (V) or a consonant (C)
 * JosserandSetID = which (if any) of Josserand's correspondence sets represents the same or a very similar change; only applies to vowels; see changes_josserand.tsv
-
 
 #### changes_josserand
 This file contains the definition of the correspondence sets given in Josserand 1983, restated to be as comparable as possible to the way we define the sound changes.
@@ -39,6 +46,13 @@ This file contains the definition of the correspondence sets given in Josserand 
 * PRESENT = indicates whether or not the correspondence set is also found in our data (if it is comparable)
 * SOURCE = cite key of the source file (Josserand 1983)
 * PAGE = page number of correspondence set
+
+
+### scripts
+R scripts to perform simple database tasks.
+#### subset_mixtecodb: 
+subsets the Mixtecan Cognate database to the sample languages for the sound change study
+
 
 ### variables
 #### variables_segments

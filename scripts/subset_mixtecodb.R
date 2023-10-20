@@ -25,7 +25,7 @@ cognates_used <- cognates_sc %>%
   pull()
 
 # subset protoforms file
-protoforms_sc <- filter(protoforms, COGIDS_BROAD %in% cognates_used)
+protoforms_sc <- filter(protoforms, COGIDS %in% cognates_used)
 
 # write new files out
 write_tsv(metadata_sc, here("data/metadata.tsv"))

@@ -2,7 +2,6 @@
 
 library(pacman)
 p_load(here,
-       rbibutils,
        tidyverse)
 
 

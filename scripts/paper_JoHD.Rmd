@@ -1,0 +1,476 @@
+---
+title: "Supplementary Material: R script for generating plots and overviews"
+subtitle: "Mixtec Sound Change Database"
+author: "Sandra Auderset"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  pdf_document: 
+    fig_caption: yes
+    latex_engine: xelatex
+    keep_tex: no
+    toc: false
+mainfont: Linux Libertine
+header-includes:
+  - |
+    ```{=latex}
+    \usepackage{fvextra}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+      breaksymbolleft={}, 
+      showspaces = false,
+      showtabs = false,
+      breaklines,
+      commandchars=\\\{\}
+    }
+    ```
+csl: generic-style-rules-for-linguistics.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=80),tidy="styler",echo=TRUE,dev = "cairo_pdf",warning = FALSE,fig.align = 'center',out.width="0.9\\textwidth",out.height="\\textheight")
+```
+
+This script provides the code for generating the plots in the paper and aggregating the data for the use cases described there.
+All maps are created with the package `ggmap' (Kahle & Wickham 2013) using Stamen maps from Stadia (https://stadiamaps.com/attribution/).
+
+# Preparation
+
+First, we load the necessary packages (cf. the Rmd file for details).
+```{r preamble, include=FALSE}
+# load packages
+library(pacman)
+p_load(cowplot,
+       extrafont,
+       formatR,
+       ggmap, 
+       ggrepel,
+       ggtext,
+       ggthemes,
+       here,
+       janitor, 
+       kableExtra,
+       stringi,
+       styler, 
+       tidybulk, 
+       tidyverse,
+       viridis,
+       xtable)
+```
+```{r stadia, include=FALSE}
+# API key for maps
+register_stadiamaps("3a811dbc-3a12-4a65-a604-94e474a482af", write = FALSE)
+```
+
+We read in the files from the Mixtec Sound Change Database repository.
+Next, we check the coverage of variables and languages and exclude those who have very low coverage from further analysis. Low coverage for varieties is defined here as having NA for more than a third of the variables. This is not currently the case in our database, so we can keep all the languages.
+Low coverage for variables is defined here the same way, i.e. as having NA for more than one third of the varieties. For the current study, this leads to the exclusion of 29 variables (see details in code).
+We create a file for analysis that excludes these low coverage variables.
+```{r coverage}
+# read in variable file
+var_seg_all <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCaSo/main/variables/variables_segments.tsv")
+
+# summarize language coverage
+total_number_changes <- ncol(select(var_seg_all, -DOCULECT))
+# check for number of NA
+coverage_lang <- var_seg_all %>%
+  mutate(na_lang = rowSums(is.na(.))) %>%
+  select(DOCULECT, na_lang) %>%
+  arrange(desc(na_lang)) %>% 
+  mutate(exclude = if_else(na_lang>(total_number_changes/3), "yes", "no"))
+# none of the languages needs to be excluded
+
+# summarize variable coverage
+total_number_languages <- nrow(var_seg_all)
+# exclude variables that cover less than 1/3rd of varieties
+coverage_var <- var_seg_all %>%
+  summarize(across(matches("[[:upper:]]{1}\\d{2}"), ~sum(is.na(.)))) %>%
+  pivot_longer(everything())
+# get names of low coverage variables; list them
+low_coverage_var <- coverage_var %>%
+  filter(value>(total_number_languages/3)) %>%
+  pull(name)
+low_coverage_var
+
+# create data set for analysis excluding low coverage variables
+var_seg <- var_seg_all %>%
+  select(!c(low_coverage_var))
+```
+
+# Map of the sample with subgroup/dialect area membership and inset
+We set up base map of the Mixtec region for plotting with the ggmap package (Kahle & Wickham 2013) with a stamen map.
+We will exclude the diaspora variety Abosolo del Valle, located in Veracruz, from all maps, because including it would lead to less visibility for other varieties on the map. In the paper we will mention if it diverges from the rest of Group 71 (Mixtepec) to which it belongs.
+The map also includes important towns of the region which were not sampled to be better orient the reader in space.
+
+```{r map data, message = FALSE}
+# read in map data
+map_data <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCaSo/main/data/metadata.tsv") %>%
+  filter(MapAbbr!="abas")
+
+# get min/max values for map box
+summary(map_data$Latitude)
+summary(map_data$Longitude)
+```
+```{r map setup, message = FALSE}
+# set up map with stamen
+mixtec_base <- get_stadiamap(bbox = c(left=-99.2, bottom=16, right=-96.55, top=18.75), maptype = "stamen_toner_background", zoom = 10, crop = TRUE)
+
+# set up map with labels as function, to use as a base for plotting variables
+map_all_labels <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(map_data, is.na(DOCULECT)), size = 2.5, fontface = "bold") +
+  geom_label_repel(aes(x = Longitude, y = Latitude, label = MapAbbr), data = filter(map_data, !is.na(DOCULECT)), size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, color = "white", bg = "black", alpha = 0.5) +
+  guides(color="none") +
+  theme_map()
+```
+Next, I will set up a custom color scheme for the subgroups. For this, I first create a new column in the metadata with subgroups that shows lower-levels only for the very large Group 7.
+```{r colors custom}
+metadata <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCaSo/main/data/metadata.tsv") %>%
+  mutate(AudersetGroupC = case_when(AudersetGroup=="Group 7" & !is.na(AudersetGroupSub) ~ AudersetGroupSub,
+                                    TRUE ~ AudersetGroup), .before = AudersetGroup) %>%
+  mutate(AudersetGroupC = factor(AudersetGroupC, levels = c("Unclear", "Group 1", "Group 2", "Group 3", "Group 4", "Linkage 5", "Group 6", "Group 7", "Group 71", "Group 72", "Group 73", "Group 74", "Linkage 75", "Group 76")))
+
+# custom color scale based on viridis palettes for 14 levels
+ccol_14 <- c(
+  "#6D4C3D",
+  "#90d743",
+  "#2B4570",
+  "#35b779",
+  "#43BCCD",
+  "#4f772d",
+  "#F9C80E",
+  "#6e0930",
+  "#e36596",
+  "#bc3908",
+  "#832161",
+  "#c9071b",
+  "#ba63ce", 
+  "#f26419"
+ )
+```
+
+We also set up a custom function to count number of changes easily and a custom template for the maps, using a unicode font.
+```{r custom functions}
+# function to calculate number of changes, number of NA, and ratio per variety
+changes_calc <- function(c){
+  c %>%
+  group_by(DOCULECT) %>%
+  mutate(n_change = sum(Value, na.rm = TRUE)) %>%
+  mutate(n_na = sum(is.na(Value))) %>%
+  mutate(r_change = round((100/(length(unique(Variable))-n_na))*n_change)) %>%
+  ungroup() %>%
+  distinct(DOCULECT, .keep_all = TRUE) %>%
+  select(-Value) %>%
+  mutate(Variable = str_match(Variable, "[[:upper:]]+")) %>%
+  relocate(n_change:r_change, .after = DOCULECT)
+}
+
+# set up ggplot theme with unicode font and appropriate font size for reuse
+theme_scmap <- theme(plot.title=element_markdown(family = "Noto Sans", size = 11, color = "white", fill = "black", linewidth = 5, margin = margin(t=40, b=-30, l=50), padding = unit(c(4, 4, 4, 4), "pt")),
+        legend.title = element_blank(),
+        legend.text = element_text(family = "Noto Sans", size = 10),
+        legend.position = c(0, 0.5))
+```
+
+Now we can display a map of the sample colored by subgroups.
+```{r map with colors}
+# map with subgroups
+map_subgroups <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(metadata, is.na(AudersetGroupC)), size = 2.5, fontface = "bold") +
+  geom_label_repel(aes(x = Longitude, y = Latitude, label = MapAbbr, fill = AudersetGroupC), data = filter(metadata, !is.na(AudersetGroupC)), size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, alpha = 0.85) +
+  scale_fill_manual(values = ccol_14) +
+  guides(fill = guide_legend(title = "Subgroup", override.aes = aes(label = "", alpha = 1))) +
+  theme_map() +
+  theme(legend.title=element_text(size=9),
+        legend.text=element_text(size=9),
+        legend.key.size = unit(1,"line"),
+        legend.position = c(0, 1),
+        legend.justification = c(0, 1),
+        legend.box.background = element_rect(color = "white"))
+map_subgroups
+```
+We create a map of Mesoamerica with the sample map highlighted as an inset.
+```{r mesoamerica inset}
+# mesoamerica map
+mesoamerica_map <- get_stadiamap(bbox = c(left = -112, bottom = 7.7, right = -82, top = 30), zoom = 5, maptype = "stamen_toner_lite")
+# make square for where the inset is
+square <- data.frame(
+  lon = c(-99.2, -99.2, -96.2, -96.2, -99.2),  # Adjust these values for your square
+  lat = c(16, 18.75, 18.75, 16, 16)  # Adjust these values for your square
+)
+
+# map with square
+mesoamerica_inset <- ggmap(mesoamerica_map) +
+  geom_polygon(data = square, aes(x = lon, y = lat), fill = NA, color = "black", size = 1) +
+  theme_map()
+mesoamerica_inset
+```
+
+Now we can combine the two maps.
+```{r combine maps}
+map_subgroups_inset = ggdraw() +
+  draw_plot(map_subgroups) +
+  draw_plot(mesoamerica_inset, x = 0.65, y = 0.01, width = 0.3, height = 0.3, valign = 0, halign = 0)
+map_subgroups_inset
+```
+
+```{r test map, include=FALSE}
+ggsave("map-subgroups-labels.png", map_subgroups_inset, device = "png", width = 21, units = "cm", dpi = 600, path = "/plots")
+```
+
+
+# Overview numbers
+I generate some overview numbers for the paper regarding number of cognate sets, proto-forms, sound changes etc.
+
+```{r numbers}
+# number of reconstructed proto-forms, number of new reconstructions, number of classifier morphemes
+# add variable that encodes whether the form was reconstructed by a previous source
+protoforms <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCaSo/main/data/protoforms.tsv") %>%
+  mutate(previous_source = if_all(ends_with("ID"), ~is.na(.)))
+
+# lexical entries in cognate sets
+# set up vector with sample languages
+sample_languages <- unique(var_seg_all$DOCULECT)
+cognate_db <- read_tsv("https://raw.githubusercontent.com/SAuderset/mixtecan-cognate-database/main/mixtecan_cognate_db.tsv") %>%
+  filter(DOCULECT %in% sample_languages)
+
+# combine
+numbers_overview <- tibble(
+  pf_total = nrow(protoforms),
+  pf_new = nrow(filter(protoforms, previous_source==TRUE)),
+  pf_clf = nrow(filter(protoforms, str_detect(MEANING, "CLF"))),
+  cognates = nrow(cognate_db),
+  sc_total = ncol(var_seg_all),
+  sc_vowels = ncol(select(var_seg_all, matches("A|E|I|O|U|Y"))),
+  sc_cons = ncol(var_seg_all)-ncol(select(var_seg_all, matches("A|E|I|O|U|Y"))),
+  sc_excluded = length(low_coverage_var)
+)
+numbers_overview
+```
+
+
+# Use cases
+
+For the analysis and plotting, we create a data set that combines the change variables, metadata, and definitions.
+```{r file comb}
+# definition file
+changes_def <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCaSo/main/definitions/changes_segments.tsv")
+
+# combine, recode to numeric
+changes_combined <- var_seg %>%
+  pivot_longer(-DOCULECT, names_to = "ID", values_to = "Value") %>% 
+  left_join(., select(changes_def, ID:ENVIRONMENT_RIGHT)) %>%
+  left_join(., select(metadata, DOCULECT, MapAbbr:AudersetGroupC, Latitude:Longitude)) %>%
+  mutate(Value = case_when(Value=="yes" ~ 1,
+                           Value=="no" ~ 0,
+                           TRUE ~ as.numeric(Value)))
+glimpse(changes_combined)
+```
+We also set up two custom functions for map plotting.
+```{r map part func}
+# custom map function for displaying variables
+map.part.variable <- function(p, v){
+  ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(metadata, is.na(AudersetGroupC)), size = 2.5, fontface = "bold") +
+  geom_label_repel(data = p, aes(x = Longitude, y = Latitude, label = MapAbbr, fill = v), size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, color = "white")
+}
+# custom map theme
+map.sc.theme <- function(){
+  theme_map() +
+  theme(legend.title=element_blank(), 
+        legend.text=element_text(size=9),
+        legend.key.size = unit(1,"line"),
+        legend.position = c(0, 0.6))
+}
+```
+
+
+## Summarizing reflexes of a proto-sound and conditioning environments
+As an example for how reflexes and conditioning environments of a proto-sound can be summarized, we look at the developments from proto-Mixtec \*s. 
+We subset our data set to just the changes from \*s and look at the distinct reflexes. We exclude the special cases of loss and metathesis, as we are interested in the primary reflexes. Retention is not coded as such in the database, because that does not constitute a change. However, the varieties that retain \*s are those that do not have any changes from \*s. We extract those from the database and create a new variable summarizing the main reflexes and retention.
+We plot this on a map.
+
+```{r summary refl}
+# subset to s, keep only those that apply
+pm_s <- changes_combined %>%
+  filter(str_detect(ID, "S")) %>%
+  select(DOCULECT:AudersetGroupC, SOUND_FROM:ENVIRONMENT_RIGHT, Latitude:Longitude)
+# overview of modern reflexes
+pm_s %>%
+  distinct(SOUND_TO)
+  
+# recode for global changes excluding metathesis and initial loss
+# get retention first
+pm_s_retention <- pm_s %>%
+  filter(!is.na(Value)) %>%
+  group_by(DOCULECT) %>%
+  mutate(s_reflexes = sum(Value)) %>%
+  distinct(DOCULECT, s_reflexes, .keep_all = TRUE) %>%
+  filter(s_reflexes==0) %>%
+  mutate(s_reflexes = if_else(s_reflexes==0, "no change", "x"))
+  
+# changes
+pm_s_global <- pm_s %>%
+  filter(SOUND_FROM!="*si") %>%
+  filter(SOUND_TO!="ø") %>%
+  group_by(DOCULECT) %>%
+  mutate(s_total = sum(Value)) %>%
+  filter(Value==1) %>% 
+  mutate(s_reflexes = paste(SOUND_TO, "/", ENVIRONMENT_LEFT, "_", ENVIRONMENT_RIGHT)) %>%
+  mutate(s_reflexes = str_remove_all(s_reflexes, "NA")) %>%
+  distinct(DOCULECT, s_reflexes, .keep_all = TRUE) %>%
+  bind_rows(pm_s_retention) %>%
+  group_by(DOCULECT) %>%
+  mutate(s_reflexes = paste(s_reflexes, collapse = ", ")) %>%
+  distinct(DOCULECT, s_reflexes, .keep_all = TRUE) %>%
+  mutate(s_reflexes_short = case_when(
+    s_reflexes=="ʃ /  _ i,e,ĩ,ẽ, ʃ / σ _ {i,ĩ}(ʔ)#" ~ "ʃ/_i,e",
+    s_reflexes=="ð /  _ ɨ,e,a,o,u,ɨ̃,ẽ,ũ, ð /  _ i,ĩ" ~ "ð",
+    s_reflexes=="ð /  _ ɨ,e,a,o,u,ɨ̃,ẽ,ũ, ʃ /  _ i,e,ĩ,ẽ, ʃ / σ _ {i,ĩ}(ʔ)#" ~ "ð/_ɨ, e,a,o,u | ʃ/_i",
+    s_reflexes=="h /  _ ɨ,a,o,ɨ̃, h /  _ i,e,ĩ,ẽ, h / # _ u,ũ" ~ "h",
+    s_reflexes=="h / # _ u,ũ, ʃ /  _ i,e,ĩ,ẽ, ʃ / σ _ {i,ĩ}(ʔ)#" ~ "h/_u, ʃ/_i,e",
+    s_reflexes=="h /  _ ɨ,a,o,ɨ̃, h / # _ u,ũ, ʃ /  _ i,e,ĩ,ẽ, ʃ / σ _ {i,ĩ}(ʔ)#" ~ "h/_ɨ,a,o,u, ʃ/_i,e",
+    TRUE ~ s_reflexes)) %>%
+  ungroup() %>%
+  mutate(s_reflexes_short = fct_relevel(s_reflexes_short, "no change", after = Inf)) %>%
+  arrange(s_reflexes_short)
+glimpse(pm_s_global)
+
+# map showing distribution of global reflexes
+s_refl_map <- map.part.variable(pm_s_global, pm_s_global$s_reflexes_short) +
+  scale_fill_viridis(discrete = TRUE, option = "turbo", begin = 0.1, end = 0.9) +
+  guides(fill = guide_legend(override.aes = aes(label = ""))) +
+  map.sc.theme()
+s_refl_map
+
+# look at reflexes per group
+s_refl_group <- pm_s_global %>%
+  group_by(AudersetGroupC, s_reflexes) %>%
+  summarize()
+```
+```{r s refl map save, include=FALSE}
+ggsave("map-s-refl.png", s_refl_map, device = "png", height = 14, width = 17, units = "cm", dpi = 600, path = "/plots")
+```
+
+
+## Looking at specific types of changes
+The database can also be used to look at specific types of changes, such as the loss of a sound or palatalization of different types of stops. We illustrate this here with the palatalization of proto-Mixtec *t before i.
+This is coded as one change, so we subset the database to just that. Because we are interested in the distribution of this change across subgroups, we recode it as present/absent and use color to represent subgroups.
+```{r t pal}
+# subset
+t_i_values <- changes_combined %>%
+  filter(ID=="T01") %>%
+  mutate(Value = as_factor(case_when(Value==0 ~ "absent",
+                                     Value==1 ~ "present",
+                                     TRUE ~ "NA"))) %>%
+  mutate(Value = fct_relevel(Value, "present", "absent", "NA"))
+
+# plot on map with subgroups
+t_i_map <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(map_data, is.na(DOCULECT)), size = 2.5, fontface = "bold") +
+  geom_point(aes(x = Longitude, y = Latitude, color = AudersetGroupC, shape = Value), data = t_i_values, size = 4) +
+  scale_color_manual(values = ccol_14) +
+  guides(shape = guide_legend(title = "*t > tʃ /_i"), color = guide_legend(title = "Subgroup", override.aes = list(size = 3), direction = "vertical", legend.position = "right")) +
+  theme_map() +
+  theme(legend.title=element_text(size=9), 
+        legend.text=element_text(size=8),
+        #legend.position = c(0, 1),
+        #legend.justification = c("left", "top")
+        )
+t_i_map
+```
+
+```{r i refl map save, include=FALSE}
+ggsave("map-t-pal-i.png", t_i_map, device = "png", height = 16, width = 21, units = "cm", dpi = 600, path = "/plots")
+```
+
+
+## Summarizing changes across varieties
+We count the total number of sound changes per variety to provide an overview of which varieties are particularly conservative and particularly innovative. We do the same for consonants and vowels separately to check for possible differences between these two sound classes.
+We do this by aggregating over the variables file with the numeric values (0 and 1).
+```{r overview}
+# merge variable file (numeric) with metadata
+metadata_sub <- select(metadata, DOCULECT, MapAbbr:JosserandAreaSub, Latitude, Longitude)
+# create numeric version of variables
+var_num <- var_seg %>%
+  mutate(across(matches("^[[:upper:]]{1}\\d{2}$"), ~case_match(.x, 
+                                                               "yes" ~ 1,
+                                                               "no" ~ 0))) %>%
+  left_join(., metadata_sub)
+
+# count overall number of changes per variety; add percentage taking into account the NAs
+total_changes <- ncol(var_seg[, -1])
+changes_total <- var_num %>%
+  rowwise() %>%
+  mutate(NumAll = sum(across(matches("^[[:upper:]]{1}\\d{2}$")), na.rm = TRUE)) %>%
+  mutate(NAAll = sum(is.na(across(matches("^[[:upper:]]{1}\\d{2}$"))))) %>%
+  mutate(PropAll = round(100/(total_changes-NAAll)*NumAll, 1)) %>%
+  mutate(NumVow = rowSums(across(matches("^[AEIOUY]{1}\\d{2}$")), na.rm = TRUE)) %>%
+  mutate(NAVow = sum(is.na(across(matches("^[AEIOUY]{1}\\d{2}$"))))) %>%
+  mutate(PropVow = round(100/(total_changes-NAVow)*NumVow, 1)) %>%
+  mutate(NumCons = rowSums(across(matches("^[DJKNSTWX]{1}\\d{2}$")), na.rm = TRUE)) %>%
+  mutate(NACons = sum(is.na(across(matches("^[DJKNSTWX]{1}\\d{2}$"))))) %>%
+  mutate(PropCons = round(100/(total_changes-NACons)*NumCons, 1)) %>%
+  select(DOCULECT, NumAll:PropCons, MapAbbr:Longitude) %>%
+  ungroup() %>%
+  arrange(desc(PropAll))
+
+# summary overview of range
+changes_total %>% 
+  select(NumAll:PropCons) %>% 
+  summary()
+
+# table of overall changes per variety
+changes_total_table <- changes_total %>% 
+  select(DOCULECT, matches("Num|Prop")) %>% 
+  arrange(PropAll) %>%
+  kable(., booktabs = TRUE, longtable = TRUE, escape = FALSE) %>%
+  kable_styling(full_width = FALSE, font_size = 11)
+changes_total_table
+```
+
+```{r plot all changes}
+# map with proportion of changes
+map_changes_overall <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(metadata, is.na(AudersetGroupC)), size = 2.5, fontface = "bold") +
+  geom_label_repel(aes(x = Longitude, y = Latitude, label = MapAbbr, fill = PropAll), data = changes_total, size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, color = "white") +
+  scale_fill_viridis(option = "inferno", end = 0.9, direction = -1) +
+  theme_map() +
+  theme(legend.title=element_blank(), 
+        legend.text=element_text(size=9),
+        legend.key.size = unit(1,"line"),
+        legend.position = c(0, 0.7))
+map_changes_overall
+
+# map with total number of changes in consonants
+map_changes_cons <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(metadata, is.na(AudersetGroupC)), size = 2.5, fontface = "bold") +
+  geom_label_repel(aes(x = Longitude, y = Latitude, label = MapAbbr, fill = PropCons), data = changes_total, size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, color = "white") +
+  scale_fill_viridis(option = "inferno", end = 0.9, direction = -1) +
+  theme_map() +
+  theme(legend.title=element_blank(), 
+        legend.text=element_text(size=9),
+        legend.key.size = unit(1,"line"),
+        legend.position = c(0,0.7))
+map_changes_cons
+
+# map with total number of changes in vowels
+map_changes_vow <- ggmap(mixtec_base) +
+  geom_text(aes(x = Longitude, y = Latitude, label = Abbreviation), data = filter(metadata, is.na(AudersetGroupC)), size = 2.5, fontface = "bold") +
+  geom_label_repel(aes(x = Longitude, y = Latitude, label = MapAbbr, fill = PropVow), data = changes_total, size = 3.5, fontface = "bold", family = "Linux Libertine", max.overlaps = 40, box.padding = 0, point.padding = 0.1, label.padding = 0.1, color = "white") +
+  scale_fill_viridis(option = "inferno", end = 0.9, direction = -1) +
+  theme_map() +
+  theme(legend.title=element_blank(), 
+        legend.text=element_text(size=9),
+        legend.key.size = unit(1,"line"),
+        legend.position = c(0,0.7))
+map_changes_vow
+```
+```{r change map, include=FALSE}
+ggsave("map-overview-all.png", map_changes_overall, device = "png", height = 14, width = 17, units = "cm", dpi = 600, path = "/plots")
+ggsave("map-overview-cons.png", map_changes_cons, device = "png", height = 14, width = 17, units = "cm", dpi = 600, path = "/plots")
+ggsave("map-overview-vowels.png", map_changes_vow, device = "png", height = 14, width = 17, units = "cm", dpi = 600, path = "/plots")
+```
+
+
+# References
+
+Kahle, David \& Wickham, Hadley (2013). ggmap: Spatial Visualization with ggplot2. The R Journal 5(1), pp. 144–161. https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf

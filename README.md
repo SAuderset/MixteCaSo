@@ -4,9 +4,8 @@ This database provides a comprehensive archive of Mixtec sound changes, coded wi
 Questions, comments, corrections, and the like are most welcome! Please [open an issue](https://github.com/SAuderset/MixteCaSo/issues/new/choose) for that.
 
 
-## MixteCaSo 1.0
-The initial creation of the database, which corresponds to its [first release (1.0)](https://github.com/SAuderset/mixtecan-cognate-database/releases/tag/v1.0) is explained in:
-* JOHD
+## MixteCaSo 1.0 - November 2023
+more information coming soon
 
 
 ## Folders, files and content
@@ -47,11 +46,16 @@ This file contains the definition of the correspondence sets given in Josserand 
 * SOURCE = cite key of the source file (Josserand 1983)
 * PAGE = page number of correspondence set
 
+#### orthography_to_ipa.pdf
+file that explains the general principles and language-specific details of the conversion from source orthographies to IPA
+
 
 ### scripts
 R scripts to perform simple database tasks.
 #### subset_mixtecodb: 
-subsets the Mixtecan Cognate database to the sample languages for the sound change study
+subsets the Mixtecan Cognate database to the sample languages for the analysis of sound changes
+#### paper_JoHD
+script that produces plots and overviews for the JoHD paper
 
 
 ### variables

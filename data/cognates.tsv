@@ -767,7 +767,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 1699	CAT	gato	88	SanJuanColoradoMixtec	mistú	mistú	m i ³ s t u ⁵	m i ³ s t u ⁵	NA	stark1986diccionario
 1701	FEATHER	pluma	227	SanJuanColoradoMixtec	tumi	tumi	t u ³ m i ³	t u ³ m i ³	NA	stark1986diccionario
 1702	TREE	árbol	799	SanJuanColoradoMixtec	yutun	yutun	j u ³ t ũ ³	j u ³ t ũ ³	NA	stark1986diccionario
-1703	HERBACEOUS PLANT	quelite	333	SanJuanColoradoMixtec	yúva	yúva	j u ⁵ β a ³	j u ⁵ β a ³	NA	stark1986diccionario
+1703	HERBACEOUS PLANT	quelite	333	SanJuanColoradoMixtec	yúva	yúva	j u ⁵ β a ³	j u ⁵ β a ³	expected tones: 3.1	stark1986diccionario
 1704	FLOWER	flor	246	SanJuanColoradoMixtec	ità	ità	i ³ t a ¹	i ³ t a ¹	NA	stark1986diccionario
 1705	MAGUEY	maguey	409	SanJuanColoradoMixtec	yavi	yavi	j a ³ β i ³	j a ³ β i ³	NA	stark1986diccionario
 1706	THORN	espina	764	SanJuanColoradoMixtec	iñu	iñu	i ³ ɲ u ³	i ³ ɲ u ³	NA	stark1986diccionario
@@ -787,7 +787,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 1720	GRIDDLE	comal	310	SanJuanColoradoMixtec	tsìyò	tsìyò	ts i ¹ j o ¹	ts i ¹ j o ¹	NA	stark1986diccionario
 1721	COOKING POT	olla	138	SanJuanColoradoMixtec	quɨsɨ	quɨsɨ	k ɨ ³ s ɨ ³	k ɨ ³ s ɨ ³	NA	stark1986diccionario
 1722	OVEN	horno	17	SanJuanColoradoMixtec	tsìtùn	tsìtùn	ts i ¹ t ũ ¹	ts i ¹ t ũ ¹	NA	stark1986diccionario
-1723	FIRE	lumbre, fuego	240	SanJuanColoradoMixtec	ñúhù	ñúhù	ɲ u ⁵ ʔ u ¹	ɲ u ⁵ ʔ u ¹	NA	stark1986diccionario
+1723	FIRE	lumbre, fuego	240	SanJuanColoradoMixtec	ñúhù	ñúhù	ɲ u ⁵ ʔ u ¹	ɲ u ⁵ ʔ u ¹	expected tones: 5.3	stark1986diccionario
 1724	SMOKE (EXHAUST)	humo	682	SanJuanColoradoMixtec	yuhmà	yuhmà	j u ³ ʔ m a ¹	j u ³ ʔ m a ¹	irregular tones, expected 1.1	stark1986diccionario
 1725	GARBAGE	basura	282	SanJuanColoradoMixtec	tsáhan	tsáhan	ts a ⁵ ʔ ã ³	ts a ⁵ ʔ ã ³	irregular tones, expected 1.1	stark1986diccionario
 1726	GOURD BOWL	jícara	291	SanJuanColoradoMixtec	yatsin	yatsin	j a ³ ts ĩ ³	j a ³ ts ĩ ³	NA	stark1986diccionario
@@ -804,7 +804,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 1739	MOUNTAIN OR HILL	monte, cerro	437	SanJuanColoradoMixtec	yucu	yucu	j u ³ k u ³	j u ³ k u ³	NA	stark1986diccionario
 1740	STONE OR ROCK	piedra	710	SanJuanColoradoMixtec	yùù	yùù	j u ¹ u ¹	j u ¹ u ¹	NA	stark1986diccionario
 1741	METAL	fierro, metal	368	SanJuanColoradoMixtec	càà	càà	k a ¹ a ¹	k a ¹ a ¹	NA	stark1986diccionario
-1742	LIME (MATERIAL)	cal	399	SanJuanColoradoMixtec	cacà	cacà	k a ³ k a ¹	k a ³ k a ¹	NA	stark1986diccionario
+1742	LIME (MATERIAL)	cal	399	SanJuanColoradoMixtec	cacà	cacà	k a ³ k a ¹	k a ³ k a ¹	expected tones: 5.3	stark1986diccionario
 1743	MUD	lodo	449	SanJuanColoradoMixtec	nyàhyù	nyàhyù	nʲ a ¹ ʔ j u ¹	n a ¹ ʔ j u ¹	NA	stark1986diccionario
 1744	FOAM	espuma	9 252	SanJuanColoradoMixtec	tiñùù	t-iñùù	t + i ³ ɲ u ¹ u ¹	t i ³ + ɲ u ¹ u ¹	NA	stark1986diccionario
 1745	RED	rojo	595	SanJuanColoradoMixtec	cuaahá	cuaahá	kʷ a ³ a ³ ʔ a ⁵	kʷ a ³ ʔ a ⁵	NA	stark1986diccionario
@@ -825,7 +825,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 1761	SWEET	dulce	735	SanJuanColoradoMixtec	vixì	vixì	β i ³ ʃ i ¹	β i ³ ʃ i ¹	irregular tones, expected 1.1	stark1986diccionario
 1762	SALTY	salado	628	SanJuanColoradoMixtec	ùhvà	ùhvà	u ¹ ʔ β a ¹	u ¹ ʔ β a ¹	NA	stark1986diccionario
 1763	TASTY	sabroso	755	SanJuanColoradoMixtec	àsɨ̀n	àsɨ̀n	a ¹ s ɨ̃ ¹	a ¹ s ɨ̃ ¹	NA	stark1986diccionario
-1764	NEW	nuevo/a	476	SanJuanColoradoMixtec	tsàà	tsàà	ts a ¹ a ¹	ts a ¹ a ¹	NA	stark1986diccionario
+1764	NEW	nuevo/a	476	SanJuanColoradoMixtec	tsàà	tsàà	ts a ¹ a ¹	ts a ¹ a ¹	expected tones: 3.5	stark1986diccionario
 1765	UGLY	feo	815	SanJuanColoradoMixtec	ndasɨ́	ndasɨ́	ⁿd a ³ s ɨ ⁵	ⁿd a ³ s ɨ ⁵	NA	stark1986diccionario
 1766	FAR	lejos	214	SanJuanColoradoMixtec	cañi	cañi	k a ³ ɲ i ³	k a ³ ɲ i ³	NA	stark1986diccionario
 1767	RAW	crudo	591	SanJuanColoradoMixtec	yɨhɨ	yɨhɨ	j ɨ ³ ʔ ɨ ³	j ɨ ³ ʔ ɨ ³	NA	stark1986diccionario
@@ -1621,7 +1621,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 3075	YESTERDAY	ayer	878	ElJicaralMixtec	kuni	kuni	k u ³ n i ³	k u ³ n i ³	NA	martin2020diccionario
 3076	YEAR	año	872	ElJicaralMixtec	kui̠ya̠	kui̠ya̠	kʷ i ¹ j a ¹	kʷ i ¹ j a ¹	NA	martin2020diccionario
 3077	NOW OR TODAY	ahora, hoy	501	ElJicaralMixtec	vichin	vichin	β i ³ tʃ ĩ ³	β i ³ tʃ ĩ ³	NA	martin2020diccionario
-3078	NIGHT	noche	481	ElJicaralMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	NA	martin2020diccionario
+3078	NIGHT	noche	481	ElJicaralMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	expected tones: 3.5	martin2020diccionario
 3080	DAY (24 HOURS)	día	163	ElJicaralMixtec	ki̠í	ki̠í	k i ¹ i ⁵	k i ¹ i ⁵	NA	martin2020diccionario
 3081	DAY (NOT NIGHT)	de día	1	ElJicaralMixtec	ntuví	ntuví	ⁿd u ³ β i ⁵	ⁿd u ³ β i ⁵	NA	martin2020diccionario
 3082	HALF	mitad	314	ElJicaralMixtec	sava	sava	s a ³ β a ³	s a ³ β a ³	NA	martin2020diccionario
@@ -1961,8 +1961,8 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 3788	BIG (PLURAL)	grande.PL	42	MagdalenaPenascoMixtec	ná'nú	ná'nú	n a ⁵ ʔ n u ⁵	n a ⁵ ʔ n u ⁵	NA	hollenbach2017diccionario
 3789	SMALL (SINGULAR)	pequeño.SG	676	MagdalenaPenascoMixtec	chí'ìn	chí'ìn	tʃ i ⁵ ʔ ĩ ¹	tʃ i ⁵ ʔ ĩ ¹	NA	hollenbach2017diccionario
 3790	SMALL (SINGULAR)	pequeño.SG	676	MagdalenaPenascoMixtec	chí'lì	chí'lì	tʃ i ⁵ ʔ l i ¹	tʃ i ⁵ ʔ l i ¹	NA	hollenbach2017diccionario
-3791	SMALL (SINGULAR)	pequeño.SG	673	MagdalenaPenascoMixtec	tí'ì	tí'ì	t i ⁵ ʔ i ¹	t i ⁵ ʔ i ¹	NA	hollenbach2017diccionario
-3792	SMALL (SINGULAR)	pequeño.SG	676	MagdalenaPenascoMixtec	lule	lule	l u ³ l e ³	l u ³ l e ³	NA	hollenbach2017diccionario
+3791	SMALL (SINGULAR)	pequeño.SG	676	MagdalenaPenascoMixtec	tí'ì	tí'ì	t i ⁵ ʔ i ¹	t i ⁵ ʔ i ¹	NA	hollenbach2017diccionario
+3792	SMALL (SINGULAR)	pequeño.SG	673	MagdalenaPenascoMixtec	lule	lule	l u ³ l e ³	l u ³ l e ³	NA	hollenbach2017diccionario
 3793	SMALL (PLURAL)	pequeño.PL	1053	MagdalenaPenascoMixtec	líkín	líkín	l i ⁵ k ĩ ⁵	l i ⁵ k ĩ ⁵	NA	hollenbach2017diccionario
 3794	SMALL (PLURAL)	pequeño.PL	669	MagdalenaPenascoMixtec	kuéchí	kuéchí	kʷ e ⁵ tʃ i ⁵	kʷ e ⁵ tʃ i ⁵	NA	hollenbach2017diccionario
 3795	LONG (SINGULAR)	largo/a.SG	406	MagdalenaPenascoMixtec	kání	kání	k a ⁵ n i ⁵	k a ⁵ n i ⁵	NA	hollenbach2017diccionario
@@ -1990,12 +1990,12 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 3845	NET	red, rede	469	SanJeronimoProgresoMixtec	ñu̧nu̧	ñu̧nu̧	ɲ ũ n ũ	ɲ u n u	NA	josserand1983mixtec
 3846	SOAP	jabón	690	SanJeronimoProgresoMixtec	nà̧mà̧	nà̧mà̧	n ã ¹ m ã ¹	n a ¹ m a ¹	NA	durr1987preliminary
 3856	BLACK	negro	93	SanJeronimoProgresoMixtec	tù̧ú̧	tù̧ú̧	t ũ ¹ ũ ⁵	t ũ ¹ ũ ⁵	NA	durr1987preliminary
-3866	NEW	nuevo/a	476	SanJeronimoProgresoMixtec	sàá	sàá	s a ¹ a ⁵	s a ¹ a ⁵	NA	durr1987preliminary
+3866	NEW	nuevo/a	476	SanJeronimoProgresoMixtec	sàá	sàá	s a ¹ a ⁵	s a ¹ a ⁵	expected tones: 3.5	durr1987preliminary
 3868	SLOW	despacio	662	SanJeronimoProgresoMixtec	kʷee	kʷee	kʷ e e	kʷ e e	NA	josserand1983mixtec
 3870	DAY (24 HOURS)	día	163	SanJeronimoProgresoMixtec	kìƀì	kìƀì	k i ¹ β i ¹	k i ¹ β i ¹	NA	durr1987preliminary
 3880	BROTHER (OF MAN)	hermano de hombre	84	SanJeronimoXayacatlanMixtec	ñānī	ñānī	ɲ a ³ n i ³	ɲ a ³ n i ³	NA	durr1987preliminary
 3881	SISTER (OF WOMAN)	hermana de mujer	651	SanJeronimoXayacatlanMixtec	kùʔù	kùʔù	k u ¹ ʔ u ¹	k u ¹ ʔ u ¹	NA	durr1987preliminary
-3882	UNCLE	tío	824	SanJeronimoXayacatlanMixtec	đītò	đītò	ð i ³ t o ¹	ð i ³ t o ¹	NA	durr1987preliminary
+3882	UNCLE	tío	824	SanJeronimoXayacatlanMixtec	đītò	đītò	ð i ³ t o ¹	ð i ³ t o ¹	expected tones: 3.3	durr1987preliminary
 3883	WOMAN	mujer	858	SanJeronimoXayacatlanMixtec	ñā̧ʔà̧	ñā̧ʔà̧	ɲ ã ³ ʔ ã ¹	ɲ a ³ ʔ ã ¹	NA	durr1987preliminary
 3884	TONGUE	lengua (cuerpo)	781	SanJeronimoXayacatlanMixtec	yàá	yàá	j a ¹ a ⁵	j a ¹ a ⁵	NA	durr1987preliminary
 3885	NOSE	naríz	496	SanJeronimoXayacatlanMixtec	đitni̧	đitni̧	ð i tⁿ ĩ	ð i tⁿ ĩ	NA	josserand1983mixtec
@@ -2821,7 +2821,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 5042	YELLOW	amarillo	876	SanJorgeNuchitaMixtec	kʷa̧a̧	kʷa̧a̧	kʷ ã ã	kʷ ã ã	NA	josserand1983mixtec
 5043	CHILI PEPPER	chile	107	ChalcatongoHidalgoMixtec	ja²Ɂa²+³	ja²Ɂa²	ʒ a ³ ʔ a ³	ʒ a ³ ʔ a ³	NA	swanton2021observaciones
 5045	SNAKE	culebra	689	SanJeronimoXayacatlanMixtec	kòò	kòò	k o ¹ o ¹	k o ¹ o ¹	NA	durr1987preliminary
-5048	BIRD	pájaro	49	SanJuanColoradoMixtec	sáa	sáa	s a ⁵ a ³	s a ⁵ a ³	NA	stark1986diccionario
+5048	BIRD	pájaro	49	SanJuanColoradoMixtec	sáa	sáa	s a ⁵ a ³	s a ⁵ a ³	expected tones: 3.1	stark1986diccionario
 5049	CHILD (DESCENDANT)	hijo, hija	103	SanPedroYosonamaMixtec	se'e	se'e	s e ʔ e	s e ʔ e	NA	gittlen2016gramatica
 5050	RAT	ratón	444	TepangoMixtec	ti̧i̧ʔ	ti̧i̧ʔ	t ĩ ĩ ʔ	t ĩ ĩ ʔ	NA	josserand1983mixtec
 5053	FOUR	cuatro	260	SanJorgeNuchitaMixtec	kô̧mi̧	kô̧mi̧	k õ ⁵¹ m ĩ	k o ⁵¹ m i	NA	josserand1983mixtec
@@ -2867,7 +2867,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 5126	PRICKLY PEAR CACTUS	nopal	564	ChalcatongoHidalgoMixtec	bíʔža	bíʔža	β i ⁵ ʔ ʒ a ³	β i ⁵ ʔ ʒ a ³	irregular tones, expected 3.1	macaulay1996grammar
 5127	SWEET	dulce	735	SanJuanTamazolaMixtec	wiđi	wiđi	w i ð i	w i ð i	NA	josserand1983mixtec
 5128	EGG	huevo, blanquillo	204	SanJeronimoXayacatlanMixtec	ⁿsiƀi	ⁿsiƀi	ⁿs i β i	ⁿds i β i	NA	josserand1983mixtec
-5132	PIG	cerdo, marrano	526	SanJuanColoradoMixtec	quɨ́nɨ̀	quɨ́nɨ̀	k ɨ ⁵ n ɨ ¹	k ɨ ⁵ n ɨ ¹	NA	stark1986diccionario
+5132	PIG	cerdo, marrano	526	SanJuanColoradoMixtec	quɨ́nɨ̀	quɨ́nɨ̀	k ɨ ⁵ n ɨ ¹	k ɨ ⁵ n ɨ ¹	expected tones: 5.3	stark1986diccionario
 5133	MOUTH	boca	447	SanPedroYosonamaMixtec	yu'u	yu'u	ʒ u ʔ u	ʒ u ʔ u	NA	gittlen2016gramatica
 5136	SWEET	dulce	735	SantiagoIxtaltepecMixtec	wiđi	wiđi	w i ð i	w i ð i	NA	josserand1983mixtec
 5137	BIG (SINGULAR)	grande.SG	44	SanJorgeNuchitaMixtec	kaʔnu̧	kaʔnu̧	k a ʔ n ũ	k a ʔ n u	NA	josserand1983mixtec
@@ -2946,7 +2946,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 5309	BLOOD	sangre	65	ChalcatongoHidalgoMixtec	nɨ³ɲɨ¹+³	nɨ³ɲɨ¹	n ɨ ³ ɲ ɨ ¹	n ɨ ³ ɲ ɨ ¹	NA	swanton2021observaciones
 5310	HERBACEOUS PLANT	hierba	332	SanJuanNumiMixtec	žuku	žuku	ʒ u k u	ʒ u k u	NA	josserand1983mixtec
 5311	FOAM	espuma	9 250	SantaMariaPenolesMixtec	tnɨ̧́ñú̧	tn-ɨ̧́ñú̧	tⁿ + ɨ̃ ɲ ũ ⁵	tⁿ + ɨ ɲ u ⁵	NA	josserand1983mixtec
-5312	HOLE	agujero, hoyo	341	SanEstebanAtatlahucaMixtec	žāū	žāū	ʒ a ³ u ³	ʒ a ³ u ³	NA	durr1987preliminary
+5312	HOLE	agujero, hoyo	341	SanEstebanAtatlahucaMixtec	žāū	žāū	ʒ a ³ u ³	ʒ a ³ u ³	expected tones: 3.1	durr1987preliminary
 5314	GREEN BEAN	ejote	308	SantiagoIxtaltepecMixtec	ⁿǰiči	ⁿǰiči	ⁿdʃ i tʃ i	ⁿdʃ i tʃ i	NA	josserand1983mixtec
 5315	UGLY	feo	812	AlacatlatzalaMixtec	kini	kini	k i ³ n i ³	k i ³ n i ³	NA	zylstra2012gramatica
 5316	MOUTH	boca	447	SanJuanTamazolaMixtec	žuʔu	žuʔu	ʒ u ʔ u	ʒ u ʔ u	NA	josserand1983mixtec
@@ -3340,7 +3340,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 5853	MEAT	carne	418	SantiagoTlazoyaltepecMixtec	ku̧ñu̧	ku̧ñu̧	k ũ ɲ ũ	k u ɲ u	NA	josserand1983mixtec
 5854	HEAVY	pesado	326	SanAgustinTlacotepecMixtec	ƀee	ƀee	β e e	β e e	NA	josserand1983mixtec
 5855	GRIDDLE	comal	310	SantaCatarinaTlaltempanMixtec	ṣ̌ʳoo	ṣ̌ʳoo	ʂʳ o o	ʃ o o	NA	josserand1983mixtec
-5856	UNCLE	tío	824	SantiagoYosonduaMixtec	shīto	shīto	ʃ i ³ t o ¹	ʃ i ³ t o ¹	NA	farris1992syntactic
+5856	UNCLE	tío	824	SantiagoYosonduaMixtec	shīto	shīto	ʃ i ³ t o ¹	ʃ i ³ t o ¹	expected tones: 3.3	farris1992syntactic
 5857	CROSS-SEX SIBLING	hermano/a de genero opuesto	159	SantoTomasOcotepecMixtec	kwahā	kwahā	kʷ a ¹ ʔ a ³	kʷ a ¹ ʔ a ³	NA	alexander1988syntactic
 5859	RAIN (PRECIPITATION)	lluvia	586	XayacatlanBravoMixtec	đàƀì	đàƀì	ð a ¹ β i ¹	ð a ¹ β i ¹	NA	josserand1983mixtec
 5860	BOX OR CHEST	caja	32 19	SantaMariaYolotepecMixtec	nu̧-ⁿdo̧o	nu̧-ⁿdo̧o	n ũ + ⁿd õ o	n u + ⁿd õ o	NA	josserand1983mixtec
@@ -3472,7 +3472,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 6029	YEAR	año	872	SanAntonioHuitepecMixtec	kʷiža	kʷiža	kʷ i ʒ a	kʷ i ʒ a	NA	josserand1983mixtec
 6031	TROUSERS	pantalón	802	LaBateaMixtec	tsatù	tsatù	ts a ³ t u ¹	ts a ³ t u ¹	NA	ramirez2020vocabulario
 6032	INTESTINES	tripas	367	SantiagoJamiltepecMixtec	čɨtɨ	čɨtɨ	tʃ ɨ t ɨ	tʃ ɨ t ɨ	NA	josserand1983mixtec
-6033	UNCLE	tío	824	SantiagoJamiltepecMixtec	shító	shító	ʃ i ⁵ t o ⁵	ʃ i ⁵ t o ⁵	NA	johnson1988syntactic
+6033	UNCLE	tío	824	SantiagoJamiltepecMixtec	shító	shító	ʃ i ⁵ t o ⁵	ʃ i ⁵ t o ⁵	expected tones: 1.1	johnson1988syntactic
 6034	STOOL	silla	717	SantiagoJuxtlahuacaMixtec	tʸʰai	tʸʰai	tʲ a i	tʲ a i	NA	josserand1983mixtec
 6036	FEATHER	pluma	227	SantaMariaJicaltepecMixtec	tu̧mi̧	tu̧mi̧	t ũ m ĩ	t u m i	NA	josserand1983mixtec
 6037	HORN (ANATOMY)	cuerno	350	SanPedroMolinosMixtec	ⁿdiki	ⁿdiki	ⁿd i k i	ⁿd i k i	NA	josserand1983mixtec
@@ -3757,7 +3757,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 6417	HORN (ANATOMY)	cuerno	350	SanJuanTeitaMixtec	ⁿdiki	ⁿdiki	ⁿd i k i	ⁿd i k i	NA	josserand1983mixtec
 6418	EGG	huevo, blanquillo	204	SantaMariaAcatepecMixtec	ⁿdɨwɨ	ⁿdɨwɨ	ⁿd ɨ w ɨ	ⁿd ɨ w ɨ	NA	josserand1983mixtec
 6421	POOR	pobre	548	SanMiguelChicahuaMixtec	ⁿr̃aʔwi	ⁿr̃aʔwi	ⁿr a ʔ w i	ⁿd a ʔ w i	NA	josserand1983mixtec
-6422	STOOL	silla	717	AlacatlatzalaMixtec	táyi̠	táyi̠	t a ⁵ j i ¹	t a ⁵ j i ¹	NA	zylstra2012gramatica
+6422	STOOL	silla	717	AlacatlatzalaMixtec	táyi̠	táyi̠	t a ⁵ j i ¹	t a ⁵ j i ¹	expected tones: 3.1	zylstra2012gramatica
 6424	FOUR	cuatro	260	SanMiguelElGrandeMixtec	ku̧ū̧	ku̧ū̧	k ũ ³ ũ ¹	k ũ ³ ũ ¹	NA	josserand1983mixtec
 6425	EGG	huevo, blanquillo	204	SantaMariaApazcoMixtec	ⁿdiwi	ⁿdiwi	ⁿd i w i	ⁿd i w i	NA	josserand1983mixtec
 6426	YELLOW	amarillo	876	SantiagoCacaloxtepecMixtec	kʷà̧á̧	kʷà̧á̧	kʷ ã ¹ ã ⁵	kʷ ã ¹ ã ⁵	NA	durr1987preliminary
@@ -3884,7 +3884,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 6592	THORN	espina	764	SanSebastianMonteMixtec	iñò	iñò	i ³ ɲ o ¹	i ³ ɲ o ¹	NA	solano2020san-sebastian
 6593	HONEY	miel	344	SantaLuciaMonteverdeMixtec	ⁿduši	ⁿduši	ⁿd u ʃ i	ⁿd u ʃ i	NA	josserand1983mixtec
 6594	HORN (ANATOMY)	cuerno	350	SanAgustinTlacotepecMixtec	ⁿǰiki	ⁿǰiki	ⁿdʃ i k i	ⁿdʃ i k i	NA	josserand1983mixtec
-6595	NIGHT	noche	481	SanMarcoslaFlorMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	NA	anonymous2020san-marcos
+6595	NIGHT	noche	481	SanMarcoslaFlorMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	expected tones: 3.5	anonymous2020san-marcos
 6596	FROG	rana	263	SanAntonioTepetlapaMixtec	saʔwa	saʔwa	s a ʔ w a	s a ʔ w a	NA	josserand1983mixtec
 6599	TASSEL	espiga	751	SantiagoPinotepaNacionalMixtec	yoko	yoko	j o k o	j o k o	NA	josserand1983mixtec
 6600	TREE	árbol	799	SantoDomingoTonahuixtlaMixtec	yutnu̧	yutnu̧	j u tⁿ ũ	j u tⁿ ũ	NA	josserand1983mixtec
@@ -4000,7 +4000,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 6757	BEESWAX	cera	33	XayacatlanBravoMixtec	ñù̧mà̧	ñù̧mà̧	ɲ ũ ¹ m ã ¹	ɲ u ¹ m a ¹	NA	josserand1983mixtec
 6758	SEVEN	siete	638	SantaMariaYolotepecMixtec	uša	uša	u ʃ a	u ʃ a	NA	josserand1983mixtec
 6759	SCORPION	alacrán	9 635	YoloxochitlMixtec	ti¹su'³ma²	ti¹-su'³ma²	t i + s ũ ʔ m ã	t i + s ũ ʔ m a	NA	amith2021recursos
-6760	FROG	rana	263	SantoDomingoHuendioMixtec	sāʔwà	sāʔwà	s a ³ ʔ β a ¹	s a ³ ʔ β a ¹	NA	Becerra Roldan p.c.
+6760	FROG	rana	263	SantoDomingoHuendioMixtec	sāʔwà	sāʔwà	s a ³ ʔ β a ¹	s a ³ ʔ β a ¹	expected tones: 3.3	Becerra Roldan p.c.
 6761	SLOW	despacio	662 1014	SanBartolomeYucuaneMixtec	kʷee-ni	kʷee-ni	kʷ e e + n i	kʷ e e + n i	NA	josserand1983mixtec
 6762	BROTHER (OF MAN)	hermano de hombre	84	SantaMariaZacatepecMixtec	ja²ni²	ja²ni²	j a ³ n i ³	j a ³ n i ³	NA	swanton2021observaciones
 6763	FLOWER	flor	246	YucunaniMixtec	ità	ità	i ³ t a ¹	i ³ t a ¹	NA	salazar2020yucunani
@@ -4424,7 +4424,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 7343	TOOTH	diente	785	SanPedroJicayanMixtec	nu̧ʔu̧	nu̧ʔu̧	n ũ ʔ ũ	n u ʔ ũ	NA	josserand1983mixtec
 7344	TORTILLA	tortilla	789	AlcozaucaGuerreroMixtec	i¹ʃta⁴	i¹ʃta⁴	i ¹ ʃ t a ⁵	i ¹ ʃ t a ⁵	NA	mendoza-ruiz2016fonologia
 7345	LAZY	flojo/a, perezoso/a	377	SantiagoChazumbaMixtec	đusa	đusa	ð u s a	ð u s a	NA	josserand1983mixtec
-7349	GREEN	verde	305	SanMiguelElGrandeMixtec	kʷíì	kʷíì	kʷ i ⁵ i ¹	kʷ i ⁵ i ¹	NA	durr1987preliminary
+7349	GREEN	verde	305	SanMiguelElGrandeMixtec	kʷíì	kʷíì	kʷ i ⁵ i ¹	kʷ i ⁵ i ¹	expected tones: 5.3	durr1987preliminary
 7350	FROG	rana	266	CoicoyanlasFloresMixtec	lekʷe	lekʷe	l e kʷ e	l e kʷ e	NA	josserand1983mixtec
 7352	POOR	pobre	548	SanJuanColoradoMixtec	ndaahví	ndaahví	ⁿd a ³ a ³ ʔ β i ⁵	ⁿd a ³ ʔ β i ⁵	NA	stark1986diccionario
 7353	RICH	rico	599	SanJuanColoradoMixtec	cúcá	cúcá	k u ⁵ k a ⁵	k u ⁵ k a ⁵	NA	stark1986diccionario
@@ -4651,7 +4651,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 7648	TORTILLA CLOTH	servilleta de tortilla	112	TepangoMixtec	sahmāh	sahmāh	s a ¹ ʔ m a ³ ʔ	s a ¹ ʔ m a ³ ʔ	NA	hills1990syntactic
 7649	COCKROACH	cucaracha	9 908	SantaMariaPenolesMixtec	tà-kóó	tà-kóó	t a ¹ + k o ⁵ o ⁵	t a ¹ + k o ⁵ o ⁵	NA	josserand1983mixtec
 7650	NIGHT TIME	de noche	481	PinotepaDonLuisMixtec	ni̧ñu̧	ni̧ñu̧	n ĩ ɲ ũ	n i ɲ u	NA	josserand1983mixtec
-7653	AUNT	tía	6	SanJeronimoProgresoMixtec	xixi	xixi	h i ¹ h i ¹	h i ¹ h i ¹	NA	shields1988syntactic
+7653	AUNT	tía	6	SanJeronimoProgresoMixtec	xixi	xixi	h i ¹ h i ¹	h i ¹ h i ¹	expected tones: 3.3	shields1988syntactic
 7654	WORD	palabra	863	SanBartoloSoyaltepecMixtec	tno̧ʔo̧	tno̧ʔo̧	tⁿ õ ʔ õ	tⁿ õ ʔ õ	NA	josserand1983mixtec
 7655	BLAME	culpa	61	SanBartoloSoyaltepecMixtec	kʷači	kʷači	kʷ a tʃ i	kʷ a tʃ i	NA	josserand1983mixtec
 7659	SMOKE (EXHAUST)	humo	682	SanSebastianTecomaxtlahuacaMixtec	ñū̧ʔmā̧	ñū̧ʔmā̧	ɲ ũ ³ ʔ m ã ³	ɲ u ³ ʔ m a ³	irregular tones, expected 1.1	josserand1983mixtec
@@ -4725,7 +4725,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 7752	POST	horcón	387	SantiagoTilantongoMixtec	ti̧ʔi̧	ti̧ʔi̧	t ĩ ʔ ĩ	t ĩ ʔ ĩ	irregular	josserand1983mixtec
 7753	DAY (24 HOURS)	día	163	PinotepaDonLuisMixtec	kɨwɨ	kɨwɨ	k ɨ w ɨ	k ɨ w ɨ	NA	josserand1983mixtec
 7757	TROUSERS	pantalón	802	SantoTomasOcotepecMixtec	xātù	xātù	x a ³ t u ¹	x a ³ t u ¹	NA	josserand1983mixtec
-7758	UNCLE	tío	824	SanJeronimoProgresoMixtec	xito	xito	h i ¹ t o ¹	h i ¹ t o ¹	NA	shields1988syntactic
+7758	UNCLE	tío	824	SanJeronimoProgresoMixtec	xito	xito	h i ¹ t o ¹	h i ¹ t o ¹	ç	shields1988syntactic
 7759	DEW	rocío	167	SanMiguelAhuehuetitlanMixtec	žüžü	žüžü	ʒ ʉ ʒ ʉ	ʒ u ʒ u	NA	josserand1983mixtec
 7760	WHEN	cuándo	840	SanBartoloSoyaltepecMixtec	(a̧)na̧	na̧	n ã	n a	NA	josserand1983mixtec
 7764	GARBAGE	basura	279	SanSebastianTecomaxtlahuacaMixtec	mi̧ʔi̧	mi̧ʔi̧	m ĩ ʔ ĩ	m i ʔ ĩ	NA	josserand1983mixtec
@@ -4793,7 +4793,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 7852	HAWK	gavilán	192	SanPedroTututepecMixtec	tasu	tasu	t a s u	t a s u	NA	josserand1983mixtec
 7853	BANANA	plátano	13	SanSebastianMonteMixtec	ndikà	ndikà	ⁿd i ³ k a ¹	ⁿd i ³ k a ¹	NA	solano2020san-sebastian
 7854	GARBAGE	basura	281	SantaLuciaMonteverdeMixtec	kʷeyo	kʷeyo	kʷ e j o	kʷ e j o	NA	josserand1983mixtec
-7855	SONG	canción, música	457	SanMarcoslaFlorMixtec	yaà	yaà	j a ³ a ¹	j a ³ a ¹	irregular tones, expected 3.51	anonymous2020san-marcos
+7855	SONG	canción, música	457	SanMarcoslaFlorMixtec	yaà	yaà	j a ³ a ¹	j a ³ a ¹	NA	anonymous2020san-marcos
 7856	FEATHER	pluma	227	SanAntonioTepetlapaMixtec	tu̧mi̧	tu̧mi̧	t ũ m ĩ	t u m i	NA	josserand1983mixtec
 7859	TOMATO	jitomate	9 775	SantiagoPinotepaNacionalMixtec	ti-na̧na̧	ti-na̧na̧	t i + n ã n ã	t i + n a n a	NA	josserand1983mixtec
 7860	FURROW	surco	272	SantoDomingoTonahuixtlaMixtec	yuku̧	yuku̧	j u k ũ	j u k ũ	NA	josserand1983mixtec
@@ -5223,7 +5223,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 8451	TEN	diez	761	SanJeronimoXayacatlanMixtec	uši	uši	u ʃ i	u ʃ i	NA	josserand1983mixtec
 8454	PIMPLE	grano (de piel)	529	SantiagoTlazoyaltepecMixtec	ⁿdɨʔžɨ	ⁿdɨʔžɨ	ⁿd ɨ ʔ ʒ ɨ	ⁿd ɨ ʔ ʒ ɨ	NA	josserand1983mixtec
 8456	WATER	agua	222 400	SanSebastianTecomaxtlahuacaMixtec	či-kʷii	či-kʷii	tʃ i + kʷ i i	tʃ i + kʷ i i	NA	josserand1983mixtec
-8458	SMOOTH	liso/a	660	LaBateaMixtec	ndiìí	ndiìí	ⁿd i ³ i ¹ i ⁵	ⁿd i ³ i ¹ i ⁵	NA	ramirez2020vocabulario
+8458	SMOOTH	liso/a	660	LaBateaMixtec	ndiìí	ndiìí	ⁿd i ³ i ¹ i ⁵	ⁿd i ³ i ¹⁵	NA	ramirez2020vocabulario
 8460	FOOT	pie	258	SanBartolomeYucuaneMixtec	xaʔa	xaʔa	x a ʔ a	x a ʔ a	NA	josserand1983mixtec
 8461	BLAME	culpa	61	MetlatonocMixtec	kʷàčī	kʷàčī	kʷ a ¹ tʃ i ³	kʷ a ¹ tʃ i ³	NA	josserand1983mixtec
 8462	COTTON	algodón	157	SanPedroYosonamaMixtec	kachi	kachi	k a tʃ i	k a tʃ i	NA	gittlen2016gramatica
@@ -5511,7 +5511,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 8848	SCORPION	alacrán	9 635	SantiagoIxtayutlaMixtec	tu-su̧ʔma̧	tu-su̧ʔma̧	t u + s ũ ʔ m ã	t u + s ũ ʔ m a	NA	josserand1983mixtec
 8849	LONG (SINGULAR)	largo/a.SG	406	SanMiguelElGrandeMixtec	kánī	kánī	k a ⁵ n i ³	k a ⁵ n i ³	NA	durr1987preliminary
 8851	HERBACEOUS PLANT	hierba	332	CoicoyanlasFloresMixtec	yuku	yuku	j u k u	j u k u	NA	josserand1983mixtec
-8855	NIGHT TIME	de noche	481	SanJuanColoradoMixtec	ñiñu	ñiñu	ɲ i ³ ɲ u ³	ɲ i ³ ɲ u ³	NA	stark1986diccionario
+8855	NIGHT TIME	de noche	481	SanJuanColoradoMixtec	ñiñu	ñiñu	ɲ i ³ ɲ u ³	ɲ i ³ ɲ u ³	expected tones: 3.5	stark1986diccionario
 8856	FEATHER	pluma	227	CuatzoquitengoMixtec	tu̧mi̧	tu̧mi̧	t ũ m ĩ	t u m i	NA	josserand1983mixtec
 8858	STONE OR ROCK	piedra	710	SantaAnaCuauhtemocMixtec	žuu	žuu	ʒ u u	ʒ u u	NA	josserand1983mixtec
 8859	PATH	camino	523	ElJicaralMixtec	ichí	ichí	i ³ tʃ i ⁵	i ³ tʃ i ⁵	NA	martin2020diccionario
@@ -6316,7 +6316,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 9985	SCORPION	alacrán	9 635	SanPedroJicayanMixtec	ti-su̧ʔma̧	ti-su̧ʔma̧	t i + s ũ ʔ m ã	t i + s ũ ʔ m a	NA	josserand1983mixtec
 9987	FIVE	cinco	244	SantaCruzBravoMixtec	o̧ʔo̧	o̧ʔo̧	õ ʔ õ	õ ʔ õ	NA	josserand1983mixtec
 9988	PIMPLE	grano (de piel)	529	SantiagoIxtaltepecMixtec	ⁿdiʔi	ⁿdiʔi	ⁿd i ʔ i	ⁿd i ʔ i	NA	josserand1983mixtec
-9989	TONGUE	lengua (cuerpo)	781	ChalcatongoHidalgoMixtec	ja³a²+³	ja³a²+³	ʒ a ³ a ¹	ʒ a ³ a ¹	irregular tones, expected 5.3	swanton2021observaciones
+9989	TONGUE	lengua (cuerpo)	781	ChalcatongoHidalgoMixtec	ja³a²+³	ja³a²+³	ʒ a ³ a ¹	ʒ a ³ a ¹	NA	swanton2021observaciones
 9992	HOUSE	casa	363	SanPedroJocotipacMixtec	weʔe	weʔe	w e ʔ e	w e ʔ e	NA	josserand1983mixtec
 9993	WING	ala	853	SantiagoIxtayutlaMixtec	ⁿdiči̧	ⁿdiči̧	ⁿd i tʃ ĩ	ⁿd i tʃ ĩ	NA	josserand1983mixtec
 9995	GREEN BEAN	ejote	308	CoicoyanlasFloresMixtec	ⁿdiči	ⁿdiči	ⁿd i tʃ i	ⁿd i tʃ i	NA	josserand1983mixtec
@@ -6513,7 +6513,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 10261	NET	red, rede	469	SanPedroMolinosMixtec	ñu̧nu̧	ñu̧nu̧	ɲ ũ n ũ	ɲ u n u	NA	josserand1983mixtec
 10262	TORTILLA	tortilla	789	SanPedroTidaaMixtec	đita	đita	ð i t a	ð i t a	NA	josserand1983mixtec
 10263	FIVE	cinco	244	SantiagoNuyooMixtec	ʔù̧ʔù̧	ʔù̧ʔù̧	ʔ ũ ¹ ʔ ũ ¹	ũ ¹ ʔ ũ ¹	NA	josserand1983mixtec
-10264	SWEET POTATO	camote	738	SanMarcoslaFlorMixtec	ña'mì	ña'mì	ɲ a ³ ʔ m i ¹	ɲ a ³ ʔ m i ¹	irregular tones, expected 3.51	anonymous2020san-marcos
+10264	SWEET POTATO	camote	738	SanMarcoslaFlorMixtec	ña'mì	ña'mì	ɲ a ³ ʔ m i ¹	ɲ a ³ ʔ m i ¹	NA	anonymous2020san-marcos
 10265	FIVE	cinco	244	SantaCatarinaMechoacanMixtec	o̧ʔo̧	o̧ʔo̧	õ ʔ õ	õ ʔ õ	NA	josserand1983mixtec
 10266	EGG	huevo, blanquillo	204	SanJuanNumiMixtec	ⁿdiƀi	ⁿdiƀi	ⁿd i β i	ⁿd i β i	NA	josserand1983mixtec
 10267	PRICKLY PEAR CACTUS	nopal	564	SanPedroTututepecMixtec	mi̧ʔⁿdʸa	mi̧ʔⁿdʸa	m ĩ ʔ ⁿdʲ a	m i ʔ ⁿdʲ a	NA	josserand1983mixtec
@@ -7203,7 +7203,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 11234	SMALL (SINGULAR)	pequeño.SG	1037 680	SantaMariaHuazolotitlanMixtec	tʸu-waa	tʸu-waa	tʲ u + w a a	tʲ u + w a a	NA	josserand1983mixtec
 11236	HOT	caliente	357	SantaCruzItundujiaMixtec	i̧ʔni̧	i̧ʔni̧	ĩ ʔ n ĩ	ĩ ʔ n i	NA	josserand1983mixtec
 11237	EAR OF CORN (FRESH)	elote	199	LaBateaMixtec	ndixî	ndixî	ⁿd i ³ ʃ i ⁵¹	ⁿd i ³ ʃ i ⁵¹	irregular tones, expected 3.15	ramirez2020vocabulario
-11239	BANANA	plátano	14	SantiagoJamiltepecMixtec	ndyītyā	ndyītyā	ⁿdʲ i ³ tʲ a ³	ⁿd i ³ tʲ a ³	irregular initial consonant	johnson1988syntactic
+11239	BANANA	plátano	14	SantiagoJamiltepecMixtec	ndyītyā	ndyītyā	ⁿdʲ i ³ tʲ a ³	ⁿd i ³ tʲ a ³	irregular initial consonant; expected tones: 1.1	johnson1988syntactic
 11241	TASTY	sabroso	755	SantiagoJuxtlahuacaMixtec	asi	asi	a s i	a s i	NA	josserand1983mixtec
 11243	BLACK	negro	93	SantaMariaJicaltepecMixtec	tù̧ù̧	tù̧ù̧	t ũ ¹ ũ ¹	t ũ ¹ ũ ¹	NA	durr1987preliminary
 11245	SUGAR CANE	caña	734	SanPedroTidaaMixtec	ⁿdoo	ⁿdoo	ⁿd o o	ⁿd o o	NA	josserand1983mixtec
@@ -7483,7 +7483,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 11637	SWEET	dulce	735	SantaMariaAcatepecMixtec	wiši	wiši	w i ʃ i	w i ʃ i	NA	josserand1983mixtec
 11638	BED	cama, lecho	26	SanMiguelChicahuaMixtec	šito	šito	ʃ i t o	ʃ i t o	NA	josserand1983mixtec
 11640	TOWN OR VILLAGE	pueblo	794	SanMiguelElGrandeMixtec	ñu̧ū̧	ñu̧ū̧	ɲ ũ ³ ũ ¹	ɲ u ³ ũ ¹	NA	josserand1983mixtec
-11641	GREEN	verde	305	AlacatlatzalaMixtec	kuii̠	kuii̠	kʷ i ³ i ¹	kʷ i ³ i ¹	irregular tones, expected 5.1	anderson2006vocabulario
+11641	GREEN	verde	305	AlacatlatzalaMixtec	kuii̠	kuii̠	kʷ i ³ i ¹	kʷ i ³ i ¹	expected tones: 5.1	anderson2006vocabulario
 11643	WHEN	cuándo	840	SanMiguelElGrandeMixtec	a̧ma̧	a̧ma̧	ã ³ m ã ³	a ³ m a ³	NA	josserand1983mixtec
 11644	GOOD	bueno/a	286	SantaMariaApazcoMixtec	waʔa	waʔa	w a ʔ a	w a ʔ a	NA	josserand1983mixtec
 11645	MAN	hombre	414	SantiagoChazumbaMixtec	tʸaa	tʸaa	tʲ ã a	tʲ ã a	irregular	josserand1983mixtec
@@ -7550,7 +7550,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 11730	TWO	dos	811	SantiagoTlazoyaltepecMixtec	uu	uu	u u	u u	NA	josserand1983mixtec
 11732	UGLY	feo	823	SantaCatarinaTlaltempanMixtec	ƀiđa	ƀiđa	β i ð a	β i ð a	NA	josserand1983mixtec
 11733	HALF	mitad	314	SantiagoYosonduaMixtec	sāvā	sāvā	s a ³ β a ³	s a ³ β a ³	NA	farris1992syntactic
-11734	FIRE	lumbre, fuego	240	SantoTomasOcotepecMixtec	ñúhun	ñúhun	ɲ u ⁵ ʔ ũ ¹	ɲ u ⁵ ʔ ũ ¹	NA	alexander1988syntactic
+11734	FIRE	lumbre, fuego	240	SantoTomasOcotepecMixtec	ñúhun	ñúhun	ɲ u ⁵ ʔ ũ ¹	ɲ u ⁵ ʔ ũ ¹	expected tones: 3.1	alexander1988syntactic
 11735	RAW	crudo	591	TlahuapaMixtec	ì'i	ì'i	i ⁵ ʔ i ³	i ⁵ ʔ i ³	NA	reyes-basurto2020tlahuapa
 11736	BROTHER (OF MAN)	hermano de hombre	84	XayacatlanBravoMixtec	ñā̧nī̧	ñā̧nī̧	ɲ ã ³ n ĩ ³	ɲ a ³ n i ³	NA	josserand1983mixtec
 11737	CORN	maíz	141	SanJorgeNuchitaMixtec	nù̧nì̧	nù̧nì̧	n ũ ¹ n ĩ ¹	n u ¹ n i ¹	NA	josserand1983mixtec
@@ -7644,7 +7644,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 11864	EAR OF CORN (FRESH)	elote	199	YoloxochitlMixtec	ndi³xi⁴	ndi³xi⁴	ⁿd i ³ ʃ i ⁵	ⁿd i ³ ʃ i ⁵	NA	amith2021recursos
 11865	THREE	tres	771	SantoDomingoHuendioMixtec	ʔũ̄nĩ̀	ʔũ̄nĩ̀	u ³ n i ¹	u ³ n i ¹	NA	Becerra Roldan p.c.
 11866	DEER	venado	164	SanBartoloSoyaltepecMixtec	iđu	iđu	i ð u	i ð u	NA	josserand1983mixtec
-11868	HOLE	agujero, hoyo	341	YucunaniMixtec	yàvì	yàvì	j a ¹ β i ¹	j a ¹ β i ¹	NA	salazar2020yucunani
+11868	HOLE	agujero, hoyo	341	YucunaniMixtec	yàvì	yàvì	j a ¹ β i ¹	j a ¹ β i ¹	expected tones: 3.1	salazar2020yucunani
 11869	MAT	petate	416	SanSebastianMonteMixtec	yivì	yivì	j i ³ β i ¹	j i ³ β i ¹	NA	solano2020san-sebastian
 11870	CLOUD	nube	120	SantaMariaZacatepecMixtec	vi̠kō'	vi̠kō'	β i ¹ k o ³ ʔ	β i ¹ k o ³ ʔ	irregular tones, expected 3.31	towne2011gramatica
 11871	SQUASH	calabaza	570	YucunutiBenitoJuarezMixtec	žiki	žiki	ʒ i k i	ʒ i k i	NA	josserand1983mixtec
@@ -8162,7 +8162,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 12590	WING	ala	853	SanBartoloSoyaltepecMixtec	ⁿǰiši	ⁿǰiši	ⁿdʃ i ʃ i	ⁿdʃ i ʃ i	NA	josserand1983mixtec
 12591	HOUSE	casa	363	SantaMariaZacatepecMixtec	ƀeʔe	ƀeʔe	β e ʔ e	β e ʔ e	NA	josserand1983mixtec
 12592	RAIN (PRECIPITATION)	lluvia	586	YucunaniMixtec	sàvǐ	sàvǐ	s a ¹ β i ¹⁵	s a ¹ β i ¹⁵	NA	salazar2020yucunani
-12593	STOOL	silla	717	SanSebastianMonteMixtec	tyáyì	tyáyì	tʲ a ⁵ j i ¹	tʲ a ⁵ j i ¹	NA	solano2020san-sebastian
+12593	STOOL	silla	717	SanSebastianMonteMixtec	tyáyì	tyáyì	tʲ a ⁵ j i ¹	tʲ a ⁵ j i ¹	expected tones: 3.1	solano2020san-sebastian
 12594	RAIN (PRECIPITATION)	lluvia	586	SantaMariaZacatepecMixtec	saƀiʔ	saƀiʔ	s a β i ʔ	s a β i ʔ	NA	josserand1983mixtec
 12595	NET	red, rede	469	SantiagoApoalaMixtec	ñu̧nu̧	ñu̧nu̧	ɲ ũ n ũ	ɲ u n u	NA	josserand1983mixtec
 12597	HAWK	gavilán	193	SanMiguelAchiutlaMixtec	ši̧ʔña̧	ši̧ʔña̧	ʃ ĩ ʔ ɲ ã	ʃ ĩ ʔ ɲ a	NA	josserand1983mixtec
@@ -8547,7 +8547,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 13139	DAY (24 HOURS)	día	163	SanSebastianTecomaxtlahuacaMixtec	kìƀì	kìƀì	k i ¹ β i ¹	k i ¹ β i ¹	NA	josserand1983mixtec
 13142	INTESTINES	tripas	367	TepejilloMixtec	sisi	sisi	s i s i	s i s i	NA	josserand1983mixtec
 13143	FURROW	surco	272	SanBartolomeYucuaneMixtec	žuku̧	žuku̧	ʒ u k ũ	ʒ u k ũ	NA	josserand1983mixtec
-13144	STOOL	silla	717	PiedraAzulMixtec	tsiáyi	tsiáyi	tsʲ a ⁵ j i ³	tsʲ a ⁵ j i ³	NA	mendoza2020vocabulario
+13144	STOOL	silla	717	PiedraAzulMixtec	tsiáyi	tsiáyi	tsʲ a ⁵ j i ³	tsʲ a ⁵ j i ³	expected tones: 3.1	mendoza2020vocabulario
 13145	CHILD (DESCENDANT)	hijo, hija	103	SanPedroySanPabloTeposcolula1600Mixtec	dzaya	dzaya	ð a ʔ j a	ð a ʔ j a	NA	swanton2021un-acercamiento
 13146	EIGHT	ocho	207	SantiagoTlazoyaltepecMixtec	u̧na̧	u̧na̧	ũ n ã	u n a	NA	josserand1983mixtec
 13149	HALF	mitad	314	SantaCatarinaTlaltempanMixtec	đaƀa	đaƀa	ð a β a	ð a β a	NA	josserand1983mixtec
@@ -8598,7 +8598,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 13209	TOMATO	jitomate	9 775	LaBateaMixtec	tinǎna	ti-nǎna	t i ³ + n a ¹⁵ n a ³	t i ³ + n a ¹⁵ n a ³	NA	ramirez2020vocabulario
 13210	DEW	rocío	168	SantiagoJamiltepecMixtec	kači̧	kači̧	k a tʃ ĩ	k a tʃ ĩ	irregular, expected kati	josserand1983mixtec
 13211	PAPER	papel	520	SantiagoJamiltepecMixtec	tutu	tutu	t u ¹ t u ¹	t u ¹ t u ¹	NA	johnson1988syntactic
-13215	SMALL (SINGULAR)	pequeño.SG	673	SantaMariaJicaltepecMixtec	lùʔù	lùʔù	l u ¹ ʔ u ¹	l u ¹ ʔ u ¹	NA	durr1987preliminary
+13215	SMALL (SINGULAR)	pequeño.SG	674	SantaMariaJicaltepecMixtec	lùʔù	lùʔù	l u ¹ ʔ u ¹	l u ¹ ʔ u ¹	NA	durr1987preliminary
 13216	THREE	tres	771	SanPedroMolinosMixtec	u̧ni̧	u̧ni̧	ũ n ĩ	u n i	NA	josserand1983mixtec
 13217	DAY (24 HOURS)	día	163	SantiagoNuyooMixtec	kīwɨ̀	kīwɨ̀	k i ³ w ɨ ¹	k i ³ w ɨ ¹	irregular tones, expected 1.1	josserand1983mixtec
 13218	LIGHTNING	rayo	932 586	SanMarcoslaFlorMixtec	kááni sàjvǐ	kááni-sàjvǐ	k a ⁵ a ⁵ n i ³ + s a ¹ h β i ¹⁵	k a ⁵ a ⁵ n i ³ + s a ¹ h β i ¹⁵	NA	moises2020vocabulario
@@ -8613,7 +8613,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 13229	STONE OR ROCK	piedra	710	SantoDomingoTonahuixtlaMixtec	yuu	yuu	j u u	j u u	NA	josserand1983mixtec
 13233	DAY (NOT NIGHT)	de día	1	TepangoMixtec	nduvīh	nduvīh	ⁿd u ¹ β i ³ ʔ	ⁿd u ¹ β i ³ ʔ	NA	hills1990syntactic
 13234	SANDAL	huarache	631	SanMiguelAhuehuetitlanMixtec	ⁿdìšá	ⁿdìšá	ⁿd i ¹ ʃ a ⁵	ⁿd i ¹ ʃ a ⁵	NA	josserand1983mixtec
-13235	LIME (MATERIAL)	cal	399	SantaMariaPenolesMixtec	kàkà	kàkà	k a ¹ k a ¹	k a ¹ k a ¹	NA	durr1987preliminary
+13235	LIME (MATERIAL)	cal	399	SantaMariaPenolesMixtec	kàkà	kàkà	k a ¹ k a ¹	k a ¹ k a ¹	expected tones: 1.5	durr1987preliminary
 13236	FOUR	cuatro	260	SanPedroAtoyacMixtec	ku̧mi̧	ku̧mi̧	k ũ m ĩ	k u m i	NA	josserand1983mixtec
 13242	GREEN BEAN	ejote	308	SantoTomasOcotepecMixtec	ⁿtìčī	ⁿtìčī	ⁿd i ¹ tʃ i ³	ⁿd i ¹ tʃ i ³	NA	josserand1983mixtec
 13243	SALT	sal	624	SanJeronimoProgresoMixtec	ñii	ñii	ɲ i ¹ i ¹	ɲ i ¹ i ¹	NA	shields1988syntactic
@@ -8904,7 +8904,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 13641	BROTHER (OF MAN)	hermano de hombre	84	SanLorenzoMixtec	ya̧ñi̧	ya̧ñi̧	j ã ɲ ĩ	j a ɲ i	NA	josserand1983mixtec
 13643	PIMPLE	grano (de piel)	529	TepejilloMixtec	ⁿsiʔi	ⁿsiʔi	ⁿs i ʔ i	ⁿds i ʔ i	NA	josserand1983mixtec
 13644	SQUASH	calabaza	570	SanBartolomeYucuaneMixtec	žikⁿ	žikⁿ	ʒ i kⁿ	ʒ i k ĩ	NA	josserand1983mixtec
-13645	FROG	rana	263	PiedraAzulMixtec	sá'và	sá'và	s a ⁵ ʔ β a ¹	s a ⁵ ʔ β a ¹	NA	mendoza2020vocabulario
+13645	FROG	rana	263	PiedraAzulMixtec	sá'và	sá'và	s a ⁵ ʔ β a ¹	s a ⁵ ʔ β a ¹	expected tones: 3.1	mendoza2020vocabulario
 13648	POOR	pobre	548	SantiagoTlazoyaltepecMixtec	ⁿdaʔu	ⁿdaʔu	ⁿd a ʔ u	ⁿd a ʔ u	NA	josserand1983mixtec
 13650	BROTHER (OF MAN)	hermano de hombre	84	SantaCruzBravoMixtec	ña̧ni̧	ña̧ni̧	ɲ ã n ĩ	ɲ a n i	NA	josserand1983mixtec
 13651	BIRD	pájaro	49	SantiagoYosonduaMixtec	saa	saa	s a a	s a a	NA	josserand1983mixtec
@@ -9288,7 +9288,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 14204	GRIDDLE	comal	310	SanSebastianMonteMixtec	siyo	siyo	s i j o	s i j o	NA	josserand1983mixtec
 14205	CHILD (DESCENDANT)	hijo, hija	103	SantaMariaAcatepecMixtec	seʔe	seʔe	s e ʔ e	s e ʔ e	NA	josserand1983mixtec
 14206	MOUNTAIN OR HILL	monte, cerro	437	SanAgustinTlacotepecMixtec	žuku	žuku	ʒ u k u	ʒ u k u	NA	josserand1983mixtec
-14207	FROG	rana	263	SanMartinDuraznosMixtec	lá'và	lá'và	l a ⁵ ʔ β a ¹	l a ⁵ ʔ β a ¹	NA	hernandez2020san-martin
+14207	FROG	rana	263	SanMartinDuraznosMixtec	lá'và	lá'và	l a ⁵ ʔ β a ¹	l a ⁵ ʔ β a ¹	expected tones: 3.1	hernandez2020san-martin
 14208	DEW	rocío	168	SanAntonioTepetlapaMixtec	kači̧	kači̧	k a tʃ ĩ	k a tʃ ĩ	NA	josserand1983mixtec
 14210	PUS	pus	574	SantaLuciaMonteverdeMixtec	ⁿdakʷa	ⁿdakʷa	ⁿd a kʷ a	ⁿd a kʷ a	NA	josserand1983mixtec
 14212	YELLOW	amarillo	876	SantoDomingoTonahuixtlaMixtec	kʷa̧a̧	kʷa̧a̧	kʷ ã ã	kʷ ã ã	NA	josserand1983mixtec
@@ -9325,7 +9325,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 14259	SNAKE	culebra	689	SanSebastianMonteMixtec	kòò	kòò	k o ¹ o ¹	k o ¹ o ¹	NA	solano2020san-sebastian
 14260	IRON	fierro, metal	369	SantaMariaZacatepecMixtec	tu̧ni̧	tu̧ni̧	t ũ n ĩ	t u n i	NA	josserand1983mixtec
 14261	FOAM	espuma	9 250	YucunutiBenitoJuarezMixtec	či-ʔi̧u̧	či-ʔi̧u̧	tʃ i + ʔ ĩ ũ	tʃ i + ʔ ĩ ũ	ti+	josserand1983mixtec
-14263	INTESTINES	tripas	367	SanMarcoslaFlorMixtec	xitsi	xitsi	ʃ i ³ ts i ³	ʃ i ³ ts i ³	irregular tones, expected 3.51	anonymous2020san-marcos
+14263	INTESTINES	tripas	367	SanMarcoslaFlorMixtec	xitsi	xitsi	ʃ i ³ ts i ³	ʃ i ³ ts i ³	irregular tones, expected 3.(5)1	anonymous2020san-marcos
 14264	HEAVY	pesado	326	SantiagoApoalaMixtec	ƀee	ƀee	β e e	β e e	NA	josserand1983mixtec
 14266	CORN	maíz	141	SanMiguelAchiutlaMixtec	nu̧ni̧	nu̧ni̧	n ũ n ĩ	n u n i	NA	josserand1983mixtec
 14267	SMOOTH	liso/a	660	SanJuanTeitaMixtec	ⁿdii	ⁿdii	ⁿd i ʔ w i	ⁿd i ʔ w i	NA	josserand1983mixtec
@@ -9649,7 +9649,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 14738	BEAN	frijol(es)	24	SanPedroJocotipacMixtec	ⁿduči	ⁿduči	ⁿd u tʃ i	ⁿd u tʃ i	NA	josserand1983mixtec
 14739	BEESWAX	cera	33	SantiagoIxtayutlaMixtec	ñu̧ma̧	ñu̧ma̧	ɲ ũ m ã	ɲ u m a	NA	josserand1983mixtec
 14741	POOR	pobre	548	CoicoyanlasFloresMixtec	ⁿdaʔvi	ⁿdaʔvi	ⁿd a ʔ β i	ⁿd a ʔ β i	NA	josserand1983mixtec
-14742	UNCLE	tío	824	SanJuanColoradoMixtec	ìxtò	ìxtò	i ¹ ʃ t o ¹	i ¹ ʃ t o ¹	NA	stark1986diccionario
+14742	UNCLE	tío	824	SanJuanColoradoMixtec	ìxtò	ìxtò	i ¹ ʃ t o ¹	i ¹ ʃ t o ¹	expected tones: 5.3	stark1986diccionario
 14743	POST	horcón	387	CosoltepecMixtec	đi̧ʔi̧	đi̧ʔi̧	ð ĩ ʔ ĩ	ð ĩ ʔ ĩ	NA	josserand1983mixtec
 14745	EIGHT	ocho	207	CuatzoquitengoMixtec	o̧na̧	o̧na̧	õ n ã	o n a	NA	josserand1983mixtec
 14746	EAR	oreja	194	SanPedroMolinosMixtec	soʔo	soʔo	s o ʔ o	s o ʔ o	NA	josserand1983mixtec
@@ -10044,7 +10044,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 15304	COCKROACH	cucaracha	9 907	XayacatlanBravoMixtec	sì-šìšì	sì-šìšì	s i ¹ + ʃ i ¹ ʃ i ¹	s i ¹ + ʃ i ¹ ʃ i ¹	NA	josserand1983mixtec
 15305	RIVER	río	607	SanJorgeNuchitaMixtec	žutʸa	žutʸa	ʒ u tʲ a	ʒ u tʲ a	NA	josserand1983mixtec
 15306	SANDAL	huarache	631	XochapaMixtec	ndu̠xán	ndu̠xán	ⁿd u ¹ ʃ ã ⁵	ⁿd u ¹ ʃ ã ⁵	NA	stark2013diccionario
-15307	BIRD	pájaro	49	SantaMariaYucunicocoMixtec	sāá	sāá	s a ³ a ⁵	s a ³ a ⁵	NA	josserand1983mixtec
+15307	BIRD	pájaro	49	SantaMariaYucunicocoMixtec	sāá	sāá	s a ³ a ⁵	s a ³ a ⁵	expected tones: 3.1	josserand1983mixtec
 15310	SMOKE (EXHAUST)	humo	682	SanBartoloSoyaltepecMixtec	ño̧ʔma̧	ño̧ʔma̧	ɲ õ ʔ m ã	ɲ o ʔ m a	NA	josserand1983mixtec
 15311	DEER	venado	164	SantaMariaZacatepecMixtec	isu	isu	i s u	i s u	NA	josserand1983mixtec
 15312	FIVE	cinco	244	YucunaniMixtec	ù'ùn	ù'ùn	u ¹ ʔ ũ ¹	u ¹ ʔ ũ ¹	NA	salazar2020yucunani
@@ -10489,7 +10489,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 15961	SMALL (SINGULAR)	pequeño.SG	673	SanEstebanAtatlahucaMixtec	lulí	lulí	l u ³ l i ⁵	l u ³ l i ⁵	NA	alexander1980gramatica
 15962	CHILD (DESCENDANT)	hijo, hija	103	CuyamecalcoVillaZaragozaMixtec	iʔya	iʔya	i ʔ j a	i ʔ j a	NA	josserand1983mixtec
 15964	HEAVY	pesado	326	CuyamecalcoVillaZaragozaMixtec	wii	wii	w i i	w i i	NA	josserand1983mixtec
-15965	TOMATO	jitomate	9 775	ElJicaralMixtec	ti̠naná	ti̠-naná	t i ¹ + n ã ³ a ⁵	t i ¹ + n a ³ a ⁵	NA	martin2020diccionario
+15965	TOMATO	jitomate	9 775	ElJicaralMixtec	ti̠naná	ti̠-naná	t i ¹ + n a ³ n a ⁵	t i ¹ + n a ³ n a ⁵	NA	martin2020diccionario
 15966	SQUIRREL	ardilla	35 698	SanJuanMixtepecMixtec	ⁿdʸi-kʷa̧i̧	ⁿdʸi-kʷa̧i̧	ⁿdʲ i + kʷ ã ĩ	ⁿdʲ i + kʷ ã ĩ	NA	josserand1983mixtec
 15968	BEAN	frijol(es)	24	SanMartinPerasMixtec	ⁿduči	ⁿduči	ⁿd u tʃ i	ⁿd u tʃ i	NA	josserand1983mixtec
 15970	SEVEN	siete	638	SanFranciscoSayultepecMixtec	uča	uča	u tʃ a	u tʃ a	NA	josserand1983mixtec
@@ -10565,7 +10565,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 16076	TOWN OR VILLAGE	pueblo	794	SanJuanColoradoMixtec	ñúu	ñúu	ɲ u ⁵ u ³	ɲ u ⁵ u ³	NA	stark1986diccionario
 16077	RAT	ratón	9 445	CosoltepecMixtec	si-yoto	si-yoto	s i + j o t o	s i + j o t o	NA	josserand1983mixtec
 16079	BITTER	amargo	51	CuatzoquitengoMixtec	yowa	yowa	j o w a	j o w a	NA	josserand1983mixtec
-16080	TOWN OR VILLAGE	pueblo	794	SanPedroMolinosMixtec	ñùù	ñùù	ɲ u ¹ u ¹	ɲ u ¹ u ¹	NA	durr1987preliminary
+16080	TOWN OR VILLAGE	pueblo	794	SanPedroMolinosMixtec	ñùù	ñùù	ɲ u ¹ u ¹	ɲ u ¹ u ¹	expected tones: 3.1	durr1987preliminary
 16081	LONG (SINGULAR)	largo/a.SG	406	SanEstebanAtatlahucaMixtec	cáni	cáni	k a ⁵ n i ³	k a ⁵ n i ³	NA	alexander1980gramatica
 16082	BROTHER (OF MAN)	hermano de hombre	84	CuyamecalcoVillaZaragozaMixtec	ya̧ni̧	ya̧ni̧	j ã n ĩ	j a n i	NA	josserand1983mixtec
 16084	SMOOTH	liso/a	660	CuyamecalcoVillaZaragozaMixtec	ⁿdɨɨ	ⁿdɨɨ	ⁿd ɨ ɨ	ⁿd ɨ ɨ	NA	josserand1983mixtec
@@ -10938,7 +10938,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 16628	MAGUEY	maguey	409	XayacatlanBravoMixtec	yáwì	yáwì	j a ⁵ w i ¹	j a ⁵ w i ¹	irregular tones, expected 3.1	josserand1983mixtec
 16629	SEVEN	siete	638	SanJorgeNuchitaMixtec	ʔusa	ʔusa	ʔ u s a	u s a	NA	josserand1983mixtec
 16630	FROG	rana	263	XochapaMixtec	sa̠'va̠	sa̠'va̠	s a ¹ ʔ β a ¹	s a ¹ ʔ β a ¹	NA	stark2013diccionario
-16631	GREEN BEAN	ejote	308	SantaMariaYucunicocoMixtec	ⁿdī`čī	ⁿdī`čī	ⁿd i ³ ¹ tʃ i ³	ⁿd i ³ ¹ tʃ i ³	NA	josserand1983mixtec
+16631	GREEN BEAN	ejote	308	SantaMariaYucunicocoMixtec	ⁿdī`čī	ⁿdī`čī	ⁿd i ³ ¹ tʃ i ³	ⁿd i ³¹ tʃ i ³	NA	josserand1983mixtec
 16632	FIRE	lumbre, fuego	240	YoloxochitlMixtec	ñu'³u²	ñu'³u²	ɲ u ³ ʔ u ²	ɲ u ³ ʔ u ²	NA	amith2021recursos
 16634	DEW	rocío	167	SanBartoloSoyaltepecMixtec	žužu	žužu	ʒ u ʒ u	ʒ u ʒ u	NA	josserand1983mixtec
 16635	MOUNTAIN OR HILL	monte, cerro	437	SanBartoloSoyaltepecMixtec	žuku	žuku	ʒ u k u	ʒ u k u	NA	josserand1983mixtec
@@ -11005,7 +11005,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 16728	SQUASH	calabaza	570	SantaMariaYucunicocoMixtec	ʔīkí̧-(ʔí̧ñú̧)	ʔīkí̧	i ³ k ĩ ⁵	i ³ k ĩ ⁵	NA	josserand1983mixtec
 16731	PLAIN	llanura, llano	535	SanBartoloSoyaltepecMixtec	žođo	žođo	ʒ o ð o	ʒ o ð o	NA	josserand1983mixtec
 16732	HORN (ANATOMY)	cuerno	350	SantaMariaZacatepecMixtec	ⁿdikiʔ	ⁿdikiʔ	ⁿd i k i ʔ	ⁿd i k i ʔ	NA	josserand1983mixtec
-16733	SMALL (SINGULAR)	pequeño.SG	673	YucunaniMixtec	luu	luu	l u ³ u ³	l u ³ u ³	NA	salazar2020yucunani
+16733	SMALL (SINGULAR)	pequeño.SG	674	YucunaniMixtec	luu	luu	l u ³ u ³	l u ³ u ³	NA	salazar2020yucunani
 16734	TWO	dos	811	SantaMariaZacatepecMixtec	u²bi²¹	u²bi²¹	u ³ β i ³¹	u ³ β i ³¹	NA	swanton2021observaciones
 16737	GOURD BOWL	jícara	291	SanMiguelAchiutlaMixtec	žaxi̧	žaxi̧	ʒ a x ĩ	ʒ a x ĩ	NA	josserand1983mixtec
 16739	POST	horcón	4 387	SantaMariaApazcoMixtec	ti-đȩʔȩ	ti-đȩʔȩ	t i + ð ẽ ʔ ẽ	t i + ð ẽ ʔ ẽ	NA	josserand1983mixtec
@@ -11083,7 +11083,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 16848	FEATHER	pluma	227	SantaMariaZacatepecMixtec	tu²mi¹	tu²mi¹	t u ³ m i ¹	t u ³ m i ¹	NA	swanton2021observaciones
 16849	BIG (SINGULAR)	grande.SG	44	YucunaniMixtec	ká'nu	ká'nu	k a ⁵ ʔ n u ³	k a ⁵ ʔ n u ³	NA	salazar2020yucunani
 16851	NIGHT TIME	de noche	481 988	YucunutiBenitoJuarezMixtec	ñu̧u̧-žaka	ñu̧u̧-žaka	ɲ ũ ũ + ʒ a k a	ɲ u ũ + ʒ a k a	NA	josserand1983mixtec
-16852	DEW	rocío	167	YucuquimiOcampoMixtec	jy³jo³	jy³jo³	ʒ y ⁵ ʒ o ³	ʒ y ⁵ ʒ o ³	NA	swanton2021observaciones
+16852	DEW	rocío	167	YucuquimiOcampoMixtec	jy³jo³	jy³jo³	ʒ y ⁵ ʒ o ⁵	ʒ y ⁵ ʒ o ⁵	NA	swanton2021observaciones
 16853	FISH	pescado	9 242	SanMarcoslaFlorMixtec	tsiàká	tsiàká	tsʲ a ¹ k a ⁵	tsʲ a ¹ k a ⁵	NA	anonymous2020san-marcos
 16856	THREAD	hilo	768	SanMiguelAchiutlaMixtec	žuʔƀa	žuʔƀa	ʒ u ʔ β a	ʒ u ʔ β a	NA	josserand1983mixtec
 16859	MAT	petate	416	SantaMariaApazcoMixtec	žuwi	žuwi	ʒ u w i	ʒ u w i	NA	josserand1983mixtec
@@ -11554,7 +11554,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 17558	TASTY	sabroso	755	SanPedroTidaaMixtec	ađi	ađi	a ð i	a ð i	NA	josserand1983mixtec
 17559	FROG	rana	263	SantiagoPinotepaNacionalMixtec	saʔƀa	saʔƀa	s a ʔ β a	s a ʔ β a	NA	josserand1983mixtec
 17560	HAWK	gavilán	192	SantiagoPinotepaNacionalMixtec	tasu̧	tasu̧	t a s ũ	t a s ũ	NA	josserand1983mixtec
-17561	BIG (SINGULAR)	grande.SG	44	SanMarcoslaFlorMixtec	ka'nu	ka'nu	k a ³ ʔ n u ³	k a ³ ʔ n u ³	NA	anonymous2020san-marcos
+17561	BIG (SINGULAR)	grande.SG	44	SanMarcoslaFlorMixtec	ka'nu	ka'nu	k a ³ ʔ n u ³	k a ³ ʔ n u ³	expected tones: 5.3	anonymous2020san-marcos
 17563	FEATHER	pluma	227	SantaCatarinaTlaltempanMixtec	tnu̧mi̧	tnu̧mi̧	tⁿ ũ m ĩ	tⁿ u m i	NA	josserand1983mixtec
 17564	WING	ala	853	SantaCatarinaTlaltempanMixtec	ⁿǰi̧i̧	ⁿǰi̧i̧	ⁿdʃ ĩ ĩ	ⁿdʃ ĩ ĩ	NA	josserand1983mixtec
 17565	SMOKE (EXHAUST)	humo	682	MetlatonocMixtec	ñú̧ʔmā̧	ñú̧ʔmā̧	ɲ ũ ⁵ ʔ m ã ³	ɲ u ⁵ ʔ m a ³	NA	josserand1983mixtec
@@ -11826,7 +11826,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 17973	IRON	fierro, metal	368	SanMiguelAchiutlaMixtec	kaa	kaa	k a a	k a a	NA	josserand1983mixtec
 17975	DEER	venado	164	SantaMariaApazcoMixtec	iđu	iđu	i ð u	i ð u	NA	josserand1983mixtec
 17976	SQUIRREL	ardilla	30 698	SantaMariaApazcoMixtec	la-kʷa̧ñu̧	la-kʷa̧ñu̧	l a + kʷ ã ɲ ũ	l a + kʷ a ɲ u	NA	josserand1983mixtec
-17977	HOLE	agujero, hoyo	341	SanMiguelElGrandeMixtec	žau	žau	ʒ a ³ u ³	ʒ a ³ u ³	NA	josserand1983mixtec
+17977	HOLE	agujero, hoyo	341	SanMiguelElGrandeMixtec	žau	žau	ʒ a ³ u ³	ʒ a ³ u ³	expected tones: 3.3	josserand1983mixtec
 17978	CHILD (DESCENDANT)	hijo, hija	103	AlcozaucaGuerreroMixtec	se¹Ɂe²	se¹Ɂe²	s e ¹ ʔ e ³	s e ¹ ʔ e ³	NA	swanton2021observaciones
 17979	SCORPION	alacrán	9 635	SantaMariaHuazolotitlanMixtec	tɨ-su̧ʔma̧	tɨ-su̧ʔma̧	t ɨ + s ũ ʔ m ã	t ɨ + s ũ ʔ m a	NA	josserand1983mixtec
 17980	COCKROACH	cucaracha	9 904	SantaMariaHuazolotitlanMixtec	ti-šiko	ti-šiko	t i + ʃ i k o	t i + ʃ i k o	NA	josserand1983mixtec
@@ -12299,7 +12299,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 18689	YESTERDAY	ayer	879	SanPedroTidaaMixtec	iku	iku	i k u	i k u	NA	josserand1983mixtec
 18690	YEAR	año	872	SanPedroTidaaMixtec	kʷia	kʷia	kʷ i a	kʷ i a	NA	josserand1983mixtec
 18691	TAIL	cola	635	SantiagoPinotepaNacionalMixtec	su̧ʔma̧	su̧ʔma̧	s ũ ʔ m ã	s ũ ʔ m a	NA	josserand1983mixtec
-18692	NEW	nuevo/a	476	SanMarcoslaFlorMixtec	xàá	xàá	ʃ a ¹ a ⁵	ʃ a ¹ a ⁵	NA	anonymous2020san-marcos
+18692	NEW	nuevo/a	476	SanMarcoslaFlorMixtec	xàá	xàá	ʃ a ¹ a ⁵	ʃ a ¹ a ⁵	expected tones: 3.5	anonymous2020san-marcos
 18694	PIMPLE	grano (de piel)	529	IxpantepecNievesMixtec	ⁿčiʔi	ⁿčiʔi	ⁿdʃ i ʔ i	ⁿdʃ i ʔ i	irregular, expected ⁿd	josserand1983mixtec
 18695	DISEASE	enfermedad	172	SanJuanTeitaMixtec	kʷeʔe	kʷeʔe	kʷ e ʔ e	kʷ e ʔ e	NA	josserand1983mixtec
 18696	CAT	gato	91	SanPedroYosonamaMixtec	vilu	vilu	β i l u	β i l u	NA	gittlen2016gramatica
@@ -12330,7 +12330,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 18742	GRIDDLE	comal	310	XayacatlanBravoMixtec	šio	šio	ʃ i o	ʃ i o	NA	josserand1983mixtec
 18743	COOKING POT	olla	138	XayacatlanBravoMixtec	kìđī	kìđī	k i ¹ ð i ³	k i ¹ ð i ³	NA	josserand1983mixtec
 18744	UGLY	feo	812	SanJorgeNuchitaMixtec	kini̧	kini̧	k i n ĩ	k i n i	NA	josserand1983mixtec
-18746	SMALL (SINGULAR)	pequeño.SG	673 671	SantaMariaYucunicocoMixtec	lūū-čī	lūū	l u ³ u ³	l u ³ u ³	NA	josserand1983mixtec
+18746	SMALL (SINGULAR)	pequeño.SG	673	SantaMariaYucunicocoMixtec	lūū-čī	lūū	l u ³ u ³	l u ³ u ³	NA	josserand1983mixtec
 18747	NET	red, rede	469	YoloxochitlMixtec	yu³nu⁴	yu³nu⁴	j u ³ n u ⁵	j u ³ n u ⁵	NA	amith2021recursos
 18750	COLD	frio	129	SanBartoloSoyaltepecMixtec	ƀiši	ƀiši	β i ʃ i	β i ʃ i	NA	josserand1983mixtec
 18752	YEAR	año	872	YucunaniMixtec	kuìà	kuìà	kʷ i ¹ a ¹	kʷ i ¹ a ¹	NA	salazar2020yucunani
@@ -12832,7 +12832,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19429	TWO	dos	811	TepejilloMixtec	uwi	uwi	u w i	u w i	NA	josserand1983mixtec
 19431	MUSHROOM	hongo	455	SanMartinDuraznosMixtec	xì'ì	xì'ì	ɕ i ¹ ʔ i ¹	ɕ i ¹ ʔ i ¹	NA	hernandez2020san-martin
 19432	MAGUEY	maguey	409	SanSebastianMonteMixtec	yavì	yavì	j a ³ β i ¹	j a ³ β i ¹	NA	solano2020san-sebastian
-19433	SMALL (SINGULAR)	pequeño.SG	673	SanJuanMixtepecMixtec	lūū	lūū	l u ³ u ³	l u ³ u ³	NA	durr1987preliminary
+19433	SMALL (SINGULAR)	pequeño.SG	674	SanJuanMixtepecMixtec	lūū	lūū	l u ³ u ³	l u ³ u ³	NA	durr1987preliminary
 19434	THREE	tres	771	TepejilloMixtec	u̧ni̧	u̧ni̧	ũ n ĩ	u n i	NA	josserand1983mixtec
 19435	THREAD	hilo	768	PiedraAzulMixtec	yi'và	yi'và	j i ³ ʔ β a ¹	j i ³ ʔ β a ¹	irregular tones, expected 1.1	mendoza2020vocabulario
 19436	MEAT	carne	418	SanMartinDuraznosMixtec	kùñu	kùñu	k u ¹ ɲ u ³	k u ¹ ɲ u ³	NA	hernandez2020san-martin
@@ -12849,7 +12849,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19448	BITTER	amargo	51	SanJuanMixtepecMixtec	uƀa	uƀa	u β a	u β a	NA	josserand1983mixtec
 19449	SEVEN	siete	638	TepejilloMixtec	usa	usa	u s a	u s a	NA	josserand1983mixtec
 19450	NET	red, rede	469	PiedraAzulMixtec	yujñǔ	yujñǔ	j u ³ h ɲ u ¹⁵	j u ³ h ɲ u ¹⁵	NA	mendoza2020vocabulario
-19451	FIRE	lumbre, fuego	240	SanMartinDuraznosMixtec	ñu'u	ñu'u	ɲ u ³ ʔ u ³	ɲ u ³ ʔ u ³	NA	hernandez2020san-martin
+19451	FIRE	lumbre, fuego	240	SanMartinDuraznosMixtec	ñu'u	ñu'u	ɲ u ³ ʔ u ³	ɲ u ³ ʔ u ³	expected tones: 3.1	hernandez2020san-martin
 19452	CORN DOUGH	masa	142	SanSebastianMonteMixtec	yusà	yusà	j u ³ s a ¹	j u ³ s a ¹	NA	solano2020san-sebastian
 19453	EIGHT	ocho	207	TepejilloMixtec	u̧na̧	u̧na̧	ũ n ã	u n a	NA	josserand1983mixtec
 19454	MOON	luna	430	PiedraAzulMixtec	yòjǒ	yòjǒ	j o ¹ h o ¹⁵	j o ¹ h o ¹⁵	NA	mendoza2020vocabulario
@@ -13011,7 +13011,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19619	NINE	nueve	490	PiedraAzulMixtec	ììn	ììn	i ¹ ĩ ¹	i ¹ ĩ ¹	NA	mendoza2020vocabulario
 19620	FOAM	espuma	9 250	SanMartinDuraznosMixtec	chìñù	ch-ìñù	tʃ + i ¹ ɲ u ¹	tʃ + i ¹ ɲ u ¹	irregular, expected tɕ	hernandez2020san-martin
 19621	IRON	fierro, metal	368	SanSebastianMonteMixtec	kà'a	kà'a	k a ¹ ʔ a ³	k a ¹ ʔ a ³	NA	solano2020san-sebastian
-19622	BROTHER (OF MAN)	hermano de hombre	84	TlahuapaMixtec	yani	yani	j a ³ n i ³	j a ³ n i ³	NA	reyes-basurto2020tlahuapa
+19622	BROTHER (OF MAN)	hermano de hombre	84	TlahuapaMixtec	yani	yani	j a ³ n i ³	j a ³ n i ³	expected tones: 3.3	reyes-basurto2020tlahuapa
 19623	TEN	diez	761	PiedraAzulMixtec	ùxì	ùxì	u ¹ ʃ i ¹	u ¹ ʃ i ¹	NA	mendoza2020vocabulario
 19624	DUST	polvo	186	SanMartinDuraznosMixtec	machi	machi	m a ³ tʃ i ³	m a ³ tʃ i ³	NA	hernandez2020san-martin
 19625	PAPER	papel	520	SanSebastianMonteMixtec	tutì	tutì	t u ³ t i ¹	t u ³ t i ¹	NA	solano2020san-sebastian
@@ -13095,7 +13095,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19704	TEN	diez	761	SanSebastianMonteMixtec	ùsì	ùsì	u ¹ s i ¹	u ¹ s i ¹	NA	solano2020san-sebastian
 19705	PRICKLY PEAR CACTUS	nopal	564	SanJuanNumiMixtec	ƀi̧ʔⁿde	ƀi̧ʔⁿde	β ĩ ʔ ⁿd e	β ĩ ʔ ⁿd e	NA	josserand1983mixtec
 19706	NECK	cuello	465	TlahuapaMixtec	sùkú	sùkú	s u ¹ k u ⁵	s u ¹ k u ⁵	NA	reyes-basurto2020tlahuapa
-19707	NEW	nuevo/a	476	PiedraAzulMixtec	xàá	xàá	ʃ a ¹ a ⁵	ʃ a ¹ a ⁵	NA	mendoza2020vocabulario
+19707	NEW	nuevo/a	476	PiedraAzulMixtec	xàá	xàá	ʃ a ¹ a ⁵	ʃ a ¹ a ⁵	expected tones: 3.5	mendoza2020vocabulario
 19708	TWENTY	veinte	809	SanMartinDuraznosMixtec	òkò	òkò	o ¹ k o ¹	o ¹ k o ¹	NA	hernandez2020san-martin
 19709	FIFTEEN	quinze	234	SanSebastianMonteMixtec	sà'òn	sà'òn	s a ¹ ʔ õ ¹	s a ¹ ʔ õ ¹	NA	solano2020san-sebastian
 19711	HAND	mano	320	TlahuapaMixtec	nda'á	nda'á	ⁿd a ³ ʔ a ⁵	ⁿd a ³ ʔ a ⁵	NA	reyes-basurto2020tlahuapa
@@ -13113,7 +13113,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19723	COOKING POT	olla	138	SanJuanNumiMixtec	kisi	kisi	k i s i	k i s i	NA	josserand1983mixtec
 19724	BELLY OR STOMACH	barriga	36	TlahuapaMixtec	tìxin	tìxin	t i ¹ ʃ ĩ ²	t i ¹ ʃ ĩ ²	NA	reyes-basurto2020tlahuapa
 19725	NEAR	cerca	459	PiedraAzulMixtec	yatsin	yatsin	j a ³ ts ĩ ³	j a ³ ts ĩ ³	NA	mendoza2020vocabulario
-19726	HOT	caliente	357	SanMartinDuraznosMixtec	ì'ní	ì'ní	i ¹ ʔ n i ⁵	i ¹ ʔ n i ⁵	NA	hernandez2020san-martin
+19726	HOT	caliente	357	SanMartinDuraznosMixtec	ì'ní	ì'ní	i ¹ ʔ n i ⁵	i ¹ ʔ n i ⁵	expected tones: 3.5	hernandez2020san-martin
 19727	COLD	frio	129	SanSebastianMonteMixtec	vìsi	vìsi	β i ¹ s i ³	β i ¹ s i ³	NA	solano2020san-sebastian
 19728	OVEN	horno	17	SanJuanNumiMixtec	xitnu̧	xitnu̧	x i tⁿ ũ	x i tⁿ ũ	NA	josserand1983mixtec
 19729	INTESTINES	tripas	367	TlahuapaMixtec	siti	siti	s i ³ t i ³	s i ³ t i ³	NA	reyes-basurto2020tlahuapa
@@ -13157,7 +13157,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19770	NOW OR TODAY	ahora, hoy	501	PiedraAzulMixtec	vitsin	vitsin	β i ³ ts ĩ ³	β i ³ ts ĩ ³	NA	mendoza2020vocabulario
 19771	SALTY	salado	628	SanMartinDuraznosMixtec	ò'và	ò'và	o ¹ ʔ β a ¹	o ¹ ʔ β a ¹	NA	hernandez2020san-martin
 19772	SANDAL	huarache	631	TlahuapaMixtec	ndìxán	ndìxán	ⁿd i ¹ ʃ ã ⁵	ⁿd i ¹ ʃ ã ⁵	NA	reyes-basurto2020tlahuapa
-19773	NIGHT	noche	481	PiedraAzulMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	NA	mendoza2020vocabulario
+19773	NIGHT	noche	481	PiedraAzulMixtec	ñǔu	ñǔu	ɲ u ¹⁵ u ³	ɲ u ¹⁵ u ³	expected tones: 3.6	mendoza2020vocabulario
 19774	BITTER	amargo	51	SanMartinDuraznosMixtec	òvà	òvà	o ¹ β a ¹	o ¹ β a ¹	NA	hernandez2020san-martin
 19775	UGLY	feo	812	SanSebastianMonteMixtec	kini	kini	k i ³ n i ³	k i ³ n i ³	NA	solano2020san-sebastian
 19776	IRON	fierro, metal	369	SanJuanNumiMixtec	tnu̧ni̧	tnu̧ni̧	tⁿ ũ n ĩ	tⁿ u n i	NA	josserand1983mixtec
@@ -13209,7 +13209,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 19824	RAW	crudo	591	SanMartinDuraznosMixtec	yí'í	yí'í	ʒ i ⁵ ʔ i ⁵	ʒ i ⁵ ʔ i ⁵	NA	hernandez2020san-martin
 19825	WORD	palabra	863	SanSebastianMonteMixtec	tò'on	tò'on	t o ¹ ʔ õ ³	t o ¹ ʔ õ ³	NA	solano2020san-sebastian
 19826	HOT	caliente	357	SanJuanNumiMixtec	i̧ʔni̧	i̧ʔni̧	ĩ ʔ n ĩ	ĩ ʔ n i	NA	josserand1983mixtec
-19827	BIRD	pájaro	49	TlahuapaMixtec	sàà	sàà	s a ¹ a ²	s a ¹ a ²	NA	reyes-basurto2020tlahuapa
+19827	BIRD	pájaro	49	TlahuapaMixtec	sàà	sàà	s a ¹ a ¹	s a ¹ a ¹	NA	reyes-basurto2020tlahuapa
 19828	TORTILLA BASKET	tenate	19	PiedraAzulMixtec	ntò'ǒ	ntò'ǒ	ⁿd o ¹ ʔ o ¹⁵	ⁿd o ¹ ʔ o ¹⁵	NA	mendoza2020vocabulario
 19829	SMOOTH	liso/a	660	SanMartinDuraznosMixtec	ntxi'ví	ntxi'ví	ⁿdɕ i ³ ʔ β i ⁵	ⁿdɕ i ³ ʔ β i ⁵	NA	hernandez2020san-martin
 19830	BLAME	culpa	61	SanSebastianMonteMixtec	kuàchi	kuàchi	kʷ a ¹ tʃ i ³	kʷ a ¹ tʃ i ³	NA	solano2020san-sebastian
@@ -13956,7 +13956,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 20884	POST	horcón	387	SantaMariaYucuhitiMixtec	sɨ̄ʔɨ̧	sɨ̄ʔɨ̧	s ɨ ³ ʔ ɨ̃	s ɨ ³ ʔ ɨ̃	NA	josserand1983mixtec
 20885	MAT	petate	416	SantaMariaYucuhitiMixtec	yūƀī	yūƀī	j u ³ β i ³	j u ³ β i ³	NA	josserand1983mixtec
 20886	BED	cama, lecho	26	SantaMariaYucuhitiMixtec	ʔìtō	ʔìtō	ʔ i ¹ t o ³	i ¹ t o ³	NA	josserand1983mixtec
-20887	STOOL	silla	717	SantaMariaYucuhitiMixtec	tèyū	tèyū	t e ¹ j u ³	t e ¹ j u ³	NA	josserand1983mixtec
+20887	STOOL	silla	717	SantaMariaYucuhitiMixtec	tèyū	tèyū	t e ¹ j u ³	t e ¹ j u ³	expected tones: 3.3	josserand1983mixtec
 20888	ANIMAL	animal	2	SantaMariaYucuhitiMixtec	tìì	tìì	k i ³ t ɨ ³	k i ³ t ɨ ³	NA	josserand1983mixtec
 20889	ANIMAL	animal	2	SantaMariaYucuhitiMixtec	kītɨ̄	kītɨ̄	k i ³ t ɨ ³	k i ³ t ɨ ³	NA	josserand1983mixtec
 20890	BIRD	pájaro	49	SantaMariaYucuhitiMixtec	sāā	sāā	s a ³ a ³	s a ³ a ³	NA	josserand1983mixtec
@@ -14097,7 +14097,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21026	YESTERDAY	ayer	878	SantaMariaYucunicocoMixtec	kuni	kuni	k u n i	k u n i	NA	josserand1983mixtec
 21027	NOW OR TODAY	ahora, hoy	501	SantaMariaYucunicocoMixtec	ƀītī̧	ƀītī̧	β i ³ t ĩ ³	β i ³ t ĩ ³	NA	josserand1983mixtec
 21028	NIGHT TIME	de noche	989 481	SantaMariaYucunicocoMixtec	ⁿdu̧ví-ñī̧ñú̧	ⁿdu̧ví-ñī̧ñú̧	ⁿd ũ β i ⁵ + ɲ ĩ ³ ɲ ũ ⁵	ⁿd ũ β i ⁵ + ɲ i ³ ɲ u ⁵	NA	josserand1983mixtec
-21029	AUNT	tía	6	SantoDomingoHuendioMixtec	ʃīʃì	ʃīʃì	ʃ i ³ ʃ i ¹	ʃ i ³ ʃ i ¹	NA	Becerra Roldan p.c.
+21029	AUNT	tía	6	SantoDomingoHuendioMixtec	ʃīʃì	ʃīʃì	ʃ i ³ ʃ i ¹	ʃ i ³ ʃ i ¹	expected tones: 3.3	Becerra Roldan p.c.
 21031	MAN	hombre	414	SantoDomingoHuendioMixtec	tèē	tèē	t e ¹ e ³	t e ¹ e ³	NA	Becerra Roldan p.c.
 21032	OWNER	dueño, señor	485 512	SantoDomingoHuendioMixtec	hītōʔò	hī-tōʔò	h i ³ + t o ³ ʔ o ¹	h i ³ + t o ³ ʔ o ¹	NA	Becerra Roldan p.c.
 21033	PRIEST	sacerdote	568	SantoDomingoHuendioMixtec	sūtù	sūtù	s u ³ t u ¹	s u ³ t u ¹	NA	Becerra Roldan p.c.
@@ -14142,7 +14142,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21072	GARBAGE	basura	279	SantoDomingoHuendioMixtec	mĩ̄ʔĩ̀	mĩ̄ʔĩ̀	m i ³ ʔ i ¹	m i ³ ʔ i ¹	NA	Becerra Roldan p.c.
 21073	PLATE	plato	545	SantoDomingoHuendioMixtec	kōʔō	kōʔō	k o ³ ʔ o ³	k o ³ ʔ o ³	irregular tones, expected 3.1	Becerra Roldan p.c.
 21074	BOX OR CHEST	caja	79	SantoDomingoHuendioMixtec	hātnũ̀	hātnũ̀	h a ³ tⁿ ũ ¹	h a ³ tⁿ ũ ¹	pot. irregular	Becerra Roldan p.c.
-21075	HOLE	agujero, hoyo	341	SantoDomingoHuendioMixtec	ʒāβ̞ì	ʒāβ̞ì	ʒ a ³ β i ¹	ʒ a ³ β i ¹	NA	Becerra Roldan p.c.
+21075	HOLE	agujero, hoyo	341	SantoDomingoHuendioMixtec	ʒāβ̞ì	ʒāβ̞ì	ʒ a ³ β i ¹	ʒ a ³ β i ¹	expected tones: 3.3	Becerra Roldan p.c.
 21076	MOON	luna	430	SantoDomingoHuendioMixtec	ʒōò	ʒōò	ʒ o ³ o ¹	ʒ o ³ o ¹	NA	Becerra Roldan p.c.
 21077	THUNDER	trueno	245	SantoDomingoHuendioMixtec	ka'ndi	ka'ndi	k a ³ ʔ ⁿd i ³	k a ³ ʔ ⁿd i ³	NA	becerra-roldan2015un-estudio
 21078	RAIN (PRECIPITATION)	lluvia	586	SantoDomingoHuendioMixtec	sāβ̞ì	sāβ̞ì	s a ³ β i ¹	s a ³ β i ¹	NA	Becerra Roldan p.c.
@@ -14433,7 +14433,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21509	RED	rojo	595	SanAndresYutatioMixtec	kua'á	kua'á	kʷ a ³ ʔ a ⁵	kʷ a ³ ʔ a ⁵	NA	williams2017diccionario
 21510	GREEN	verde	305	SanAndresYutatioMixtec	kuíi̠	kuíi̠	kʷ i ⁵ i ¹	kʷ i ⁵ i ¹	NA	williams2017diccionario
 21511	YELLOW	amarillo	876	SanAndresYutatioMixtec	kuaán	kuaán	kʷ a ³ ã ⁵	kʷ a ³ ã ⁵	NA	williams2017diccionario
-21512	BLACK	negro	55	SanAndresYutatioMixtec	ndei'í	ndei'í	ⁿd e ³ i ³ ʔ i ⁵	ⁿd e ³ i ³ ʔ i ⁵	NA	williams2017diccionario
+21512	BLACK	negro	55	SanAndresYutatioMixtec	ndei'í	ndei'í	ⁿd e ³ i ³ ʔ i ⁵	ⁿd e ³ ʔ i ⁵	NA	williams2017diccionario
 21513	WHITE	blanco	844	SanAndresYutatioMixtec	kuxí	kuxí	k u ³ ʃ i ⁵	k u ³ ʃ i ⁵	NA	williams2017diccionario
 21514	ONE	uno	507	SanAndresYutatioMixtec	iin	iin	i ³ ĩ	i ³ ĩ	NA	williams2017diccionario
 21515	TWO	dos	811	SanAndresYutatioMixtec	uu̠	uu̠	u ³ u ¹	u ³ u ¹	NA	williams2017diccionario
@@ -14463,7 +14463,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21539	SALTY	salado	628	SanAndresYutatioMixtec	o'o̠va̠	o'o̠va̠	o ³ ʔ o ¹ β a ¹	o ³ ʔ β a ¹	NA	williams2017diccionario
 21540	BITTER	amargo	51	SanAndresYutatioMixtec	ova̠	ova̠	o ³ β a ¹	o ³ β a ¹	NA	williams2017diccionario
 21541	TASTY	sabroso	755	SanAndresYutatioMixtec	adi̠	adi̠	a ³ ð i ¹	a ³ ð i ¹	NA	williams2017diccionario
-21543	NEW	nuevo/a	476	SanAndresYutatioMixtec	sa̠á	sa̠á	s a ¹ a ⁵	s a ¹ a ⁵	NA	williams2017diccionario
+21543	NEW	nuevo/a	476	SanAndresYutatioMixtec	sa̠á	sa̠á	s a ¹ a ⁵	s a ¹ a ⁵	expected tones: 3.5	williams2017diccionario
 21544	LAZY	flojo/a, perezoso/a	377	SanAndresYutatioMixtec	dúsá	dúsá	ð u ⁵ s a ⁵	ð u ⁵ s a ⁵	NA	williams2017diccionario
 21545	UGLY	feo	812	SanAndresYutatioMixtec	kini	kini	k i ³ n i ³	k i ³ n i ³	NA	williams2017diccionario
 21546	JEALOUS	celoso	374	SanAndresYutatioMixtec	kuión	kuión	kʷ i ³ õ ⁵	kʷ i ³ õ ⁵	NA	williams2017diccionario
@@ -14477,7 +14477,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21554	YEAR	año	872	SanAndresYutatioMixtec	kuia̠	kuia̠	kʷ i ³ a ¹	kʷ i ³ a ¹	NA	williams2017diccionario
 21555	NOW OR TODAY	ahora, hoy	501	SanAndresYutatioMixtec	viti	viti	β i ³ t i ³	β i ³ t i ³	NA	williams2017diccionario
 21556	NIGHT	noche	475 480	SanAndresYutatioMixtec	sa̠kuaá	sa̠-kuaá	s a ¹ + kʷ a ³ a ⁵	s a ¹ + kʷ a ³ a ⁵	NA	williams2017diccionario
-21558	NIGHT TIME	de noche	481	SanAndresYutatioMixtec	ñoo	ñoo	ɲ o ³ o ³	ɲ o ³ o ³	NA	williams2017diccionario
+21558	NIGHT TIME	de noche	481	SanAndresYutatioMixtec	ñoo	ñoo	ɲ o ³ o ³	ɲ o ³ o ³	expected tones: 3.5	williams2017diccionario
 21559	DAY (24 HOURS)	día	163	SanAndresYutatioMixtec	kuu̠	kuu̠	k u ³ u ¹	k u ³ u ¹	NA	williams2017diccionario
 21560	DAY (NOT NIGHT)	de día	1	SanAndresYutatioMixtec	nduú	nduú	ⁿd u ³ u ⁵	ⁿd u ³ u ⁵	NA	williams2017diccionario
 21561	HALF	mitad	507 949	SanAndresYutatioMixtec	iin ñe'e	iin-ñe'e	i ³ ĩ ³ + ɲ e ³ ʔ e ³	i ³ ĩ ³ + ɲ e ³ ʔ e ³	NA	williams2017diccionario
@@ -14696,7 +14696,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 21801	PRICKLY PEAR CACTUS	nopal	32 564	SantiagoCacaloxtepecMixtec	(to)-ƀȩʔⁿde	to-ƀȩʔⁿde	t o + β ẽ ʔ ⁿd e	t o + β ẽ ʔ ⁿd e	NA	josserand1983mixtec
 21802	MEAT	carne	418	SantiagoCacaloxtepecMixtec	kò̧ñō̧	kò̧ñō̧	k õ ¹ ɲ õ ³	k o ¹ ɲ o ³	NA	durr1987preliminary
 21804	COOKING POT	olla	138	SantiagoCacaloxtepecMixtec	kìđī	kìđī	k i ¹ ð i ³	k i ¹ ð i ³	NA	durr1987preliminary
-21805	FIRE	lumbre, fuego	240	SantiagoCacaloxtepecMixtec	ñó̧(ʔ)ò̧	ñó̧ʔò̧	ɲ õ ⁵ ʔ õ ¹	ɲ o ⁵ ʔ õ ¹	NA	josserand1983mixtec
+21805	FIRE	lumbre, fuego	240	SantiagoCacaloxtepecMixtec	ñó̧(ʔ)ò̧	ñó̧ʔò̧	ɲ õ ⁵ ʔ õ ¹	ɲ o ⁵ ʔ õ ¹	expected tones: 3.1	josserand1983mixtec
 21806	SMOKE (EXHAUST)	humo	682	SantiagoCacaloxtepecMixtec	ñi̧ʔma̧	ñi̧ʔma̧	ɲ ĩ ʔ m ã	ɲ i ʔ m a	NA	josserand1983mixtec
 21807	GARBAGE	basura	279	SantiagoCacaloxtepecMixtec	mi̧ʔi̧	mi̧ʔi̧	m ĩ ʔ ĩ	m i ʔ ĩ	NA	josserand1983mixtec
 21808	GOURD BOWL	jícara	291	SantiagoCacaloxtepecMixtec	žašI	žašI	ʒ a ʃ i̥	ʒ a ʃ i	NA	josserand1983mixtec
@@ -14857,7 +14857,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 22017	ANIMAL	animal	2	SantiagoYosonduaMixtec	kɨ̄tɨ̄	kɨ̄tɨ̄	k ɨ ³ t ɨ ³	k ɨ ³ t ɨ ³	NA	farris1992syntactic
 22018	TOMATO	jitomate	9 775	SantiagoYosonduaMixtec	tɨ́nānā	tɨ́-nānā	t ɨ ⁵ + n a ³ n a ³	t ɨ ⁵ + n a ³ n a ³	NA	farris1992syntactic
 22019	TORTILLA	tortilla	789	SantiagoYosonduaMixtec	staa	staa	s t a ¹ a ¹	s t a ¹ a ¹	irregular tones, expected 3.1	farris1992syntactic
-22020	TOWN OR VILLAGE	pueblo	794	SantiagoYosonduaMixtec	ñūu	ñūu	ɲ u ³ u ¹	ɲ u ³ u ¹	NA	farris1992syntactic
+22020	TOWN OR VILLAGE	pueblo	794	SantiagoYosonduaMixtec	ñūu	ñūu	ɲ u ³ u ¹	ɲ u ³ u ¹	expected tones: 3.3	farris1992syntactic
 22021	TREE	árbol	799	SantiagoYosonduaMixtec	yūNnū	yūNnū	j u ³ ʰn u ³	j u ³ ʰn u ³	NA	farris1992syntactic
 22022	TWENTY	veinte	809	SantiagoYosonduaMixtec	ōko	ōko	o ³ k o ¹	o ³ k o ¹	NA	farris1992syntactic
 22023	TWO	dos	811	SantiagoYosonduaMixtec	ūu	ūu	u ³ u ¹	u ³ u ¹	NA	farris1992syntactic
@@ -15110,7 +15110,7 @@ ID	CONCEPT	GLOSS	COGIDS	DOCULECT	SOURCE_ORIGINAL	SOURCE_ORTHOGRAPHIC	TOKENS_SOUR
 22329	HERBACEOUS PLANT	quelite	333	ChalcatongoHidalgoMixtec	ju²a¹	ju²a¹	j u ³ a ¹	j u ³ a ¹	NA	swanton2021observaciones
 22330	CORN STALK	rastrojo	150	YucuquimiOcampoMixtec	ɲa¹ma¹	ɲa¹ma¹	ɲ a ¹ m a ¹	ɲ a ¹ m a ¹	NA	swanton2021observaciones
 22331	CORN STALK	rastrojo	150	ChalcatongoHidalgoMixtec	ɲa³ma¹+³	ɲa³ma¹	ɲ a ³ m a ¹	ɲ a ³ m a ¹	NA	swanton2021observaciones
-22332	NIGHT	noche	481	AlcozaucaGuerreroMixtec	ju¹³ũ¹	ju¹³ũ¹	ɲ u ¹³ u ¹	ɲ u ¹³ u ¹	NA	swanton2021observaciones
+22332	NIGHT	noche	481	AlcozaucaGuerreroMixtec	ju¹³ũ¹	ju¹³ũ¹	ɲ u ¹³ u ¹	ɲ u ¹³ u ¹	expected tones: 3.5	swanton2021observaciones
 22333	BASKET	canasta	18	AlcozaucaGuerreroMixtec	ti¹³ka³	ti¹³ka³	t i ¹⁵ k a ⁵	t i ¹⁵ k a ⁵	NA	swanton2021observaciones
 22334	HERBACEOUS PLANT	quelite	333	YucuquimiOcampoMixtec	ʒo²o²	ʒo²o²	ʒ o ³ o ³	ʒ o ³ o ³	NA	swanton2021observaciones
 22335	FURROW	surco	272	SanPedroySanPabloTeposcolula1600Mixtec	yuq	yuq	j u k ũ	j u k ũ	NA	swanton2021un-acercamiento

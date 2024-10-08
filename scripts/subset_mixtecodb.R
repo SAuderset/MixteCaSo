@@ -1,4 +1,6 @@
-# this script subsets and extracts the Mixtec data from the Mixtecan Cognate Database v1.1
+# this script subsets and extracts the Mixtec data from the Mixtecan Cognate Database
+# current version used: v1.2
+# last edited: 2024-10-08
 
 library(pacman)
 p_load(here,
@@ -6,9 +8,9 @@ p_load(here,
 
 
 # read in metadata, cognate sets, protoforms
-metadata <- read_tsv(here("data/MixteCoDB-1.1/metadata.tsv"))
-cognates <- read_tsv(here("data/MixteCoDB-1.1/mixtecan_cognate_db.tsv"))
-protoforms <- read_tsv(here("data/MixteCoDB-1.1/protoforms.tsv"))
+metadata <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCoDB/main/metadata.tsv")
+cognates <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCoDB/main//mixtecan_cognate_db.tsv")
+protoforms <- read_tsv("https://raw.githubusercontent.com/SAuderset/MixteCoDB/main//protoforms.tsv")
 
 # create vector of languages coded for sound changes
 segment_sample <- read_tsv(here("variables/variables_segments.tsv")) %>%

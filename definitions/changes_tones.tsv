@@ -1,0 +1,78 @@
+FeatureID	TONE_GROUP	SOUND_FROM	SOUND_TO	ENVIRONMENT_LEFT	ENVIRONMENT_RIGHT	ProseDescription	Basic	NOTE
+Tone01	A1	*H	1			PM *H is low	yes	
+Tone02	A2	*H	1		ʔ#	PM *H with final ʔ is low	yes	
+Tone03	C1	*H	1	#	L	PM *H is low before *L	yes	
+Tone04	D1	*H	1	#L	#	PM *H is low after *L	yes	
+Tone05	A1-C1	*H	3		(!ʔ)	PM *H is mid	yes	
+Tone06	A2	*H	3		Hʔ#	PM *H in first mora before final ʔ is mid	yes	
+Tone07	A2	*H	3		ʔ#	PM *H in second mora before final ʔ is mid	yes	
+Tone08	C1	*H	3	#	L#	PM *H is mid before *L	yes	
+Tone09	D1	*H	3	#L	#	PM *H is mid after *L	yes	
+Tone10	D1	*H	31	#L	#	PM *H is mid-low after *L	yes	
+Tone11	A2	*H	15	σ	ʔ#	PM *H with final ʔ is low-high in bisyllables	yes	
+Tone12	A2	*H	15	μ	ʔ#	PM *H with final ʔ is low-high in monosyllables	yes	
+Tone13	C1	*L	2	H	#	PM *L is mid-low level after *H	yes	
+Tone14	B1-B2	*L	3	#	L#	PM *L is mid in first mora before *L	yes	
+Tone15	B1	*L	3	NUM		PM *L is mid in numerals only	yes	
+Tone16	C1	*L	3	H	#	PM *L is mid after *H	yes	
+Tone17	D1	*L	3	#	H#	PM *L is mid before *H	yes	
+Tone18	B1-C1	*L	5	L	#	PM *L is high after *L	yes	
+Tone19	B1-B2	*L	5	#	L#	PM *L is high before *L	yes	
+Tone20	B2	*L	5	σ	ʔ#	PM *L with final ʔ is high in bisyllables	yes	
+Tone21	B2	*L	5	μ	ʔ#	PM *L with final ʔ is high in monosyllables	yes	
+Tone22	C1	*L	5	H	#	PM *L is high after *H	yes	
+Tone23	D1	*L	5	#	H#	PM *L is high before *H	yes	
+Tone24	B2	*L	15	σ	ʔ#	PM *L with final ʔ is low-high in bisyllables	yes	
+Tone25	B2	*L	15	μ	ʔ#	PM *L with final ʔ is low-high in monosyllables	yes	
+Tone26	B1-B2-D1	*L	31		(ʔ)#	PM *L is mid-low in second mora	yes	
+Tone27	C1	*L	51	H	#	PM *L is high-low after *H	yes	
+Tone28	A4	*H	3	(A4)	H	PM *H is mid in first mora in A4	no	probably an adjectival high
+Tone29	A4	*H	3	(A4)H	ʔ#	PM *H is mid before glottal stop in A4	no	probably an adjectival high
+Tone30	A5	*H	3	(A5)	H	PM *H is mid in first mora in A5	no	probably an adjectival high
+Tone31	A5	*H	3	(A5)H	ʔ#	PM *H is mid before glottal stop in A5	no	probably an adjectival high
+Tone32	A6	*H	1	(A6)	H	PM *H is low in first mora in A6	no	probably an initial low from the clf
+Tone33	A6	*H	1	(A6)H	ʔ#	PM *H is low before glottal stop in A6	no	probably an initial low from the clf
+Tone34	A6	*H	2	(A6)	H	PM *H is half-low in first mora in A6	no	probably an initial low from the clf
+Tone35	A6	*H	3	(A6)	H	PM *H is mid before glottal stop in A6	no	probably an initial low from the clf
+Tone36	A6	*H	3	(A6)H	ʔ#	PM *H is mid before glottal stop in A6	no	probably an initial low from the clf
+Tone37	A6	*H	15	(A6)	H	PM *H is low-high in first mora in A6	no	probably an initial low from the clf
+Tone38	A7	*H	1	(A7)	H	PM *H is low in first mora in A7	no	
+Tone39	A7-A8	*H	1	(A7, A8)H	ʔ#	PM *H is low before glottal stop in A7 and A8	no	
+Tone40	A7	*H	3	(A7)	H	PM *H is mid in first mora in A7	no	
+Tone41	A7	*H	3	(A7)H	ʔ#	PM *H is mid before glottal stop in A7	no	
+Tone42	A8	*H	1	(A8)	H	PM *H is low in first mora in A8	no	
+Tone43	A8	*H	3	(A8)	H	PM *H is mid in first mora in A8	no	
+Tone44	A8	*H	3	(A8)H	ʔ#	PM *H is mid before glottal stop in A8	no	
+Tone45	B5	*L	3	(B5)	L	PM *L is mid in first mora in B5	no	
+Tone46	B5	*L	3	(B5)L	ʔ#	PM *L is mid before glottal stop in B5	no	
+Tone47	B5	*L	5			PM *L is high in first mora in B5	no	
+Tone48	B5	*L	5	(B5)L	ʔ#	PM *L is high before glottal stop in B5	no	
+Tone49	B5	*L	51	(B5)	L	PM *L is high-low in first mora in B5	no	
+Tone50	B5	*L	15	(B5)L	ʔ#	PM *L is low-high before glottal stop in B5	no	
+Tone51	B6	*L	3	(B6)	L	PM *L is mid in first mora in B6	no	
+Tone52	B6	*L	3	(B6)L	ʔ#	PM *L is mid before glottal stop in B6	no	
+Tone53	B6	*L	5			PM *L is high in first mora in B6	no	
+Tone54	B6	*L	5	(B6)L	ʔ#	PM *L is high before glottal stop in B6	no	
+Tone55	B6	*L	51	(B6)	L	PM *L is high-low in first mora in B6	no	
+Tone56	B6	*L	15	(B6)L	ʔ#	PM *L is low-high before glottal stop in B6	no	
+Tone57	C2	*H	1	(C2)	L	PM *H is low before low in C2	no	
+Tone58	C2-C5	*H	2	(C2, C5)	L	PM *H is mid-low before low in C2 and C5	no	
+Tone59	C2	*H	3	(C2)	L	PM *H is mid before low in C2	no	
+Tone60	C2-C5	*L	2	(C2, C5)H	#	PM *L is mid-low after high in C2 and C5	no	
+Tone61	C2	*L	3	(C2)H	#	PM *L is mid after high in C2	no	
+Tone62	C2	*L	5	(C2)H	#	PM *L is high after high in C2	no	
+Tone63	C3	*H	1	(C3)	L	PM *H is low before low in C3	no	
+Tone64	C3	*H	3	(C3)	L	PM *H is mid before low in C3	no	
+Tone65	C3	*L	3	(C3)H	#	PM *L is mid after high in C3	no	
+Tone66	C3	*L	5	(C3)H	#	PM *L is high after high in C3	no	
+Tone67	C4	*H	1	(C4)	L	PM *H is low before low in C4	no	
+Tone68	C4	*H	3	(C4)	L	PM *H is mid before low in C4	no	
+Tone69	C4	*H	51	(C4)	L	PM *H is high-low before low in C4	no	
+Tone70	C4	*L	3	(C4)H	#	PM *L is mid after high in C4	no	
+Tone71	C4	*L	5	(C4)H	#	PM *L is high after high in C4	no	
+Tone72	C5	*H	1	(C5)	L	PM *H is low before low in C5	no	most probably a *L-
+Tone73	C5	*H	3	(C5)	L	PM *H is mid before low in C5	no	most probably a *L-
+Tone74	C5	*H	15	(C5)	L	PM *H is high-low before low in C5	no	most probably a *L-
+Tone75	C5	*L	3	(C5)H	#	PM *L is mid after high in C5	no	most probably a *L-
+Tone76	C5	*L	5	(C5)H	#	PM *L is high after high in C5	no	most probably a *L-
+Tone77	C5	*L	51	(C5)H	#	PM *L is high-low after high in C5	no	most probably a *L-
